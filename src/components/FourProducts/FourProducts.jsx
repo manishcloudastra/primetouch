@@ -2,12 +2,12 @@ import React from 'react'
 
 const FourProducts = ({data}) => {
     return (
-        <div className="flex flex-wrap -m-4">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-6 lg:gap-12 px-6 mb-8 md:mb-10">
             {
                 data.map((prod,idx) => (
-                    <div key={`women${prod}${idx}`} className="lg:w-1/4 md:w-1/2 px-4 py-8 w-full">
-                        <a className="block relative h-72 rounded overflow-hidden">
-                            <img alt="ecommerce" className="object-cover  w-full h-auto block" src={prod.imageSrc} />
+                    <div key={`women${prod}${idx}`}>
+                        <a className="block relative rounded overflow-hidden">
+                            <img alt="ecommerce" className="object-cover w-full h-auto block" src={prod.imageSrc} />
                         </a>
                         <div className="mt-4">
                             <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1 uppercase">{prod.category}</h3>
