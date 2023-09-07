@@ -7,7 +7,7 @@ import FourProducts from "../FourProducts/FourProducts"
 export default function ProductListing({ heading, row1, row2 }) {
     const [showMore, setShowMore] = useState(false)
     const handleToggle = () => {
-        setShowMore((val) => setShowMore(!val))
+        setShowMore((val) => !val)
     }
     return (
         <section className="lg:container mx-auto text-gray-600 bg-white mb-4 lg:mb-8 body-font">

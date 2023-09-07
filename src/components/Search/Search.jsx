@@ -63,7 +63,7 @@ export const Search = () => {
                     className=' text-base'
                     focusBorderColor='#DD8560'
                     type="text"
-                    placeholder="Search..."
+                    placeholder="Search...(e.g. Classic)"
                     value={searchText}
                     color={'black'}
                     onClick={() => setIsModalOpen(true)}
@@ -84,7 +84,7 @@ export const Search = () => {
                     maxH="500px"
                     overflowY="auto"
                 >
-                    {products.filter(item => item.name.toLowerCase().includes(searchText.toLowerCase())).length === 0 && searchText.trim().length !== 0 ? (
+                    {products.filter(item => item.productName.toLowerCase().includes(searchText.toLowerCase())).length === 0 && searchText.trim().length !== 0 ? (
                         isLoading ? (
                             <p className='text-black p-[0.5rem] '>Loading...</p>
                         ) : (
@@ -105,7 +105,7 @@ const SearchedProductList = ({ products, searchText }) => {
     return (
         <>
             {
-                products.filter(item => item.name.toLowerCase().includes(searchText.toLowerCase())).map((product) => (
+                products.filter(item => item.productName.toLowerCase().includes(searchText.toLowerCase())).map((product) => (
                     <Link key={product.id} href={`/${product.category}/${product.slug}`}>
                         <Box
                             borderTopWidth="1px"
@@ -115,12 +115,12 @@ const SearchedProductList = ({ products, searchText }) => {
                         >
                             <Flex align="center">
                                 <Image
-                                    alt={product.name}
+                                    alt={product.productName}
                                     src={product.imageSrc}
                                     boxSize="24px"
                                     mr="10px"
                                 />
-                                <Text className='text-black' >{product.name}</Text>
+                                <Text className='text-black' >{product.productName}</Text>
                             </Flex>
                             <Flex justify="flex-end">
                                 <Tag size="sm">{product.category}</Tag>
