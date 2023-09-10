@@ -3,8 +3,8 @@ import ProductView from '@/components/ProductView/ProductView';
 import React from 'react';
 
 const page = ({ params }) => {
-    console.log('Sent params',params)
     const foundProduct = allProducts.find(product => product.slug === params.slug);
+    if (!foundProduct) return NotFound()
     return (
         <>
             <ProductView productData={foundProduct} />

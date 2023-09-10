@@ -55,7 +55,7 @@ const InfoBoxSection = () => {
                 <source src="https://www.material-tailwind.com/demo.mp4" type="video/mp4" />
             </video>
             <div className='xl:px-16'>
-                <div className={"lg:container mx-auto md:w-[94%] lg:w-[88%] md:rounded flex justify-center gap-4 overflow-x-scroll bg-[#F2F2F2] p-6 " + lato.className}>
+                <div className={"lg:container mx-auto md:w-[94%] lg:w-[88%] md:rounded flex gap-4 overflow-x-scroll bg-[#F2F2F2] p-6 " + lato.className}>
                     <div className="w-[90%] animate-carousel md:w-1/2 lg:w-2/4 mx-6 my-3 lg:my-6 flex-shrink-0 rounded-lg bg-white shadow-lg">
                         <div className="flex items-start px-4 py-6">
                             <img className="object-cover w-12 h-12 mr-4 rounded-full shadow" src="https://images.unsplash.com/photo-1542156822-6924d1a71ace?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="avatar" />

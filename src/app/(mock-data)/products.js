@@ -9,7 +9,7 @@ export const allProducts = [
         "imageSrc": "/images/men1.png",
         "slug": "Mens-Casual-Cargo-Shorts-9f6a35bf-41c6-477f-a6f1-c11d0499d5af",
         "imageAlt": "Men's casual cargo shorts for style and functionality",
-        "rating": "4.6",
+        "rating": "4.16",
         "keyFeatures": [
             "Durable cotton twill for style and functionality",
             "Classic cargo design with multiple pockets",
@@ -28,7 +28,7 @@ export const allProducts = [
         "imageSrc": "/images/men2.png",
         "slug": "Mens-Casual-Hooded-Sweatshirt-16d0dd9a-3c9a-4e36-a0c4-6e260ea106cd",
         "imageAlt": "Men's casual hooded sweatshirt for warmth and style",
-        "rating": "4.5",
+        "rating": "4.52",
         "keyFeatures": [
             "Soft and cozy fleece for warmth and comfort",
             "Classic hooded design",
@@ -47,7 +47,7 @@ export const allProducts = [
         "imageSrc": "/images/men3.png",
         "slug": "Mens-Classic-Dress-Watch-9b2143f9-c4da-4bb3-8f87-6f8f87c9094a",
         "imageAlt": "Men's classic dress watch for style and functionality",
-        "rating": "4.7",
+        "rating": "4.37",
         "keyFeatures": [
             "Timeless round case for a classic look",
             "Genuine leather band for style and comfort",
@@ -65,7 +65,7 @@ export const allProducts = [
         "imageSrc": "/images/men4.png",
         "slug": "Mens-Classic-Leather-Backpack-9c7c8c62-5f34-4ecb-839a-2a05d7b49d9c",
         "imageAlt": "Men's classic leather backpack for durability and style",
-        "rating": "4.7",
+        "rating": "4.74",
         "keyFeatures": [
             "Genuine leather construction for durability and fashion",
             "Timeless backpack design",
@@ -84,7 +84,7 @@ export const allProducts = [
         "imageSrc": "/images/men1.png",
         "slug": "Mens-Classic-Leather-Gloves-6e608e17-733d-41e2-9a4a-d2303f17c96d",
         "imageAlt": "Men's classic leather gloves for warmth and style",
-        "rating": "4.6",
+        "rating": "4.65",
         "keyFeatures": [
             "Genuine leather construction for fashion and functionality",
             "Timeless design with a warm lining",
@@ -102,7 +102,7 @@ export const allProducts = [
         "imageSrc": "/images/men1.png",
         "slug": "Mens-Classic-White-T-Shirt-ad71f742-49d7-4c82-9a13-9909f9a2f15f",
         "imageAlt": "Men's classic white t-shirt for versatile and comfortable wear",
-        "rating": "4.5",
+        "rating": "4.65",
         "keyFeatures": [
             "Soft and breathable cotton fabric",
             "Timeless crew neckline",
@@ -120,7 +120,7 @@ export const allProducts = [
         "imageSrc": "/images/men2.png",
         "slug": "Mens-Classic-Denim-Jeans-2d3ff3a8-0cf4-4821-ba84-fa1636ccf1d2",
         "imageAlt": "Men's denim jeans for durable and stylish wear",
-        "rating": "4.7",
+        "rating": "4.77",
         "keyFeatures": [
             "Premium denim fabric for durability and style",
             "Classic straight-leg design with mid-rise waist",
@@ -138,7 +138,7 @@ export const allProducts = [
         "imageSrc": "/images/men3.png",
         "slug": "Mens-Casual-Sneakers-9f139e83-0347-4dbd-94e7-3f6f1d6f1c64",
         "imageAlt": "Men's casual sneakers for stylish and comfortable everyday wear",
-        "rating": "4.4",
+        "rating": "4.48",
         "keyFeatures": [
             "Synthetic leather upper for style and durability",
             "Cushioned insole for all-day comfort",
@@ -156,7 +156,7 @@ export const allProducts = [
         "imageSrc": "/images/men4.png",
         "slug": "Mens-Casual-Chinos-f482daac-50a3-4c07-9df2-d6f1f5a7b6a3",
         "imageAlt": "Men's casual chinos for versatile and comfortable wear",
-        "rating": "4.6",
+        "rating": "4.96",
         "keyFeatures": [
             "Premium cotton twill for comfort and style",
             "Classic straight-leg fit with mid-rise waist",
@@ -174,7 +174,7 @@ export const allProducts = [
         "imageSrc": "/images/men1.png",
         "slug": "Mens-Classic-Leather-Belt-9deebbe6-0470-4a1b-9dbd-4e1531b6c3f2",
         "imageAlt": "Men's classic leather belt for timeless style",
-        "rating": "4.6",
+        "rating": "4.60",
         "keyFeatures": [
             "Genuine leather construction for durability and style",
             "Classic buckle design",
@@ -192,7 +192,7 @@ export const allProducts = [
         "imageSrc": "/images/women1.png",
         "slug": "Womens-Classic-Ankle-Boots-f57b1c60-242f-4c1a-9f18-470d618c0835",
         "imageAlt": "Women's classic ankle boots for style and comfort",
-        "rating": "4.6",
+        "rating": "4.16",
         "keyFeatures": [
             "Faux leather construction for fashion and comfort",
             "Versatile ankle boot design",
@@ -211,7 +211,7 @@ export const allProducts = [
         "imageSrc": "/images/women2.png",
         "slug": "Womens-Classic-Sunglasses-4f03edf2-7f08-4fb8-b24b-78c7f1f95c11",
         "imageAlt": "Women's classic sunglasses for style and UV protection",
-        "rating": "4.5",
+        "rating": "4.25",
         "keyFeatures": [
             "Timeless square frame for a classic look",
             "Tinted lenses for style and UV protection",
@@ -229,7 +229,7 @@ export const allProducts = [
         "imageSrc": "/images/women3.png",
         "slug": "Womens-Casual-Striped-Sweater-5eabf142-0e19-4a35-8d9d-f93a16b7e6c8",
         "imageAlt": "Women's casual striped sweater for comfort and style",
-        "rating": "4.5",
+        "rating": "4.35",
         "keyFeatures": [
             "Soft and comfortable fabric for warmth",
             "Classic striped pattern for a casual look",
@@ -248,7 +248,7 @@ export const allProducts = [
         "imageSrc": "/images/women4.png",
         "slug": "Womens-Casual-Denim-Shorts-b4e3b1ae-9e1b-4f4d-8c82-7d0d3b2fc1ef",
         "imageAlt": "Women's casual denim shorts for style and comfort",
-        "rating": "4.6",
+        "rating": "4.46",
         "keyFeatures": [
             "High-quality denim fabric for durability",
             "Classic denim shorts design for a timeless look",
@@ -267,7 +267,7 @@ export const allProducts = [
         "imageSrc": "/images/women1.png",
         "slug": "Womens-Elegant-Trench-Coat-5824c85a-2cf4-40d7-92d6-4ab8745eb2c8",
         "imageAlt": "Women's elegant trench coat for style and functionality",
-        "rating": "4.7",
+        "rating": "4.57",
         "keyFeatures": [
             "High-quality materials for durability and style",
             "Classic double-breasted design",
@@ -286,7 +286,7 @@ export const allProducts = [
         "imageSrc": "/images/women1.png",
         "slug": "Womens-Leather-Crossbody-Bag-c2f2d876-83e2-4077-9dd1-ea10d26c7884",
         "imageAlt": "Women's leather crossbody bag for style and functionality",
-        "rating": "4.6",
+        "rating": "4.66",
         "keyFeatures": [
             "Genuine leather construction for durability and fashion",
             "Compact yet practical design",
@@ -306,7 +306,7 @@ export const allProducts = [
         "imageSrc": "/images/women2.png",
         "slug": "Womens-Casual-Striped-T-Shirt-ab1d1302-2269-45a9-86c0-03e8d98e5f13",
         "imageAlt": "Women's casual striped t-shirt for comfortable and stylish wear",
-        "rating": "4.5",
+        "rating": "4.75",
         "keyFeatures": [
             "Soft and breathable cotton for comfort",
             "Classic striped pattern",
@@ -325,7 +325,7 @@ export const allProducts = [
         "imageSrc": "/images/women3.png",
         "slug": "Womens-Classic-Trench-Coat-057fbb56-4b68-4dd4-b556-d591587e8f38",
         "imageAlt": "Women's classic trench coat for style and functionality",
-        "rating": "4.7",
+        "rating": "4.78",
         "keyFeatures": [
             "High-quality materials for style and durability",
             "Timeless double-breasted design",
@@ -344,7 +344,7 @@ export const allProducts = [
         "imageSrc": "/images/women4.png",
         "slug": "Womens-Classic-Denim-Jacket-aeb25a84-1d6e-4c2c-95a9-fa8d5a94fba7",
         "imageAlt": "Women's classic denim jacket for style and versatility",
-        "rating": "4.7",
+        "rating": "4.97",
         "keyFeatures": [
             "High-quality denim for style and durability",
             "Classic button-up design",
@@ -363,7 +363,7 @@ export const allProducts = [
         "imageSrc": "/images/women1.png",
         "slug": "Womens-Classic-Ballet-Flats-dd622e49-0b13-4d9c-a9f3-4e2c9a9d18eb",
         "imageAlt": "Women's classic ballet flats for style and comfort",
-        "rating": "4.6",
+        "rating": "4.60",
         "keyFeatures": [
             "Faux leather construction for style and comfort",
             "Timeless ballet flat design",
@@ -379,10 +379,10 @@ export const allProducts = [
         "brandName": "DenimStyle",
         "price": "$ 54.99",
         "category": "casual",
-        "imageSrc": "/images/men1.png",
+        "imageSrc": "/images/casual1.png",
         "slug": "Mens-Casual-Slim-Fit-Jeans-94f1c8e8-4ed7-4a8a-a936-29a5aaf6f4f3",
         "imageAlt": "Men's casual slim-fit jeans for a laid-back look",
-        "rating": "4.8",
+        "rating": "4.81",
         "keyFeatures": [
             "High-quality denim for style and comfort",
             "Modern slim-fit design",
@@ -398,10 +398,10 @@ export const allProducts = [
         "brandName": "CasualChic",
         "price": "$ 19.99",
         "category": "casual",
-        "imageSrc": "/images/men2.png",
+        "imageSrc": "/images/casual2.png",
         "slug": "Womens-Casual-Striped-T-Shirt-be6f913d-8965-4ae9-985e-56307f99cc7d",
         "imageAlt": "Women's casual striped t-shirt for a casual look",
-        "rating": "4.5",
+        "rating": "4.52",
         "keyFeatures": [
             "Soft and breathable cotton for comfort",
             "Classic striped pattern for a casual look",
@@ -416,10 +416,10 @@ export const allProducts = [
         "brandName": "UrbanStride",
         "price": "$ 39.99",
         "category": "casual",
-        "imageSrc": "/images/men3.png",
+        "imageSrc": "/images/casual3.png",
         "slug": "Mens-Casual-Canvas-Sneakers-d1bce7ed-3927-485a-bbe5-110a11c68c3f",
         "imageAlt": "Men's casual canvas sneakers for a stylish look",
-        "rating": "4.6",
+        "rating": "4.63",
         "keyFeatures": [
             "Classic canvas upper for a fashionable look",
             "Lace-up closure for a secure fit",
@@ -434,10 +434,10 @@ export const allProducts = [
         "brandName": "DenimDaze",
         "price": "$ 59.99",
         "category": "casual",
-        "imageSrc": "/images/men4.png",
+        "imageSrc": "/images/casual4.png",
         "slug": "Womens-Casual-Denim-Jacket-7f3d8a97-1912-4b80-8c09-5b3c187c5e3c",
         "imageAlt": "Women's casual denim jacket for a trendy look",
-        "rating": "4.7",
+        "rating": "4.74",
         "keyFeatures": [
             "Durable denim fabric for a trendy look",
             "Classic denim jacket design with button closures",
@@ -456,7 +456,7 @@ export const allProducts = [
         "imageSrc": "/images/men1.png",
         "slug": "Mens-Casual-Striped-Polo-Shirt-125d6ae1-12f0-4a9a-9297-1bf2ed24ee3b",
         "imageAlt": "Men's casual striped polo shirt for comfort and style",
-        "rating": "4.6",
+        "rating": "4.65",
         "keyFeatures": [
             "Soft and breathable fabric for comfort",
             "Classic striped pattern for a casual look",
@@ -474,7 +474,7 @@ export const allProducts = [
         "imageSrc": "/images/women1.png",
         "slug": "Womens-Casual-Slip-On-Sneakers-0e380a7c-26c6-4e7e-8a0f-49ac5a2b72ff",
         "imageAlt": "Women's casual slip-on sneakers for convenience and style",
-        "rating": "4.5",
+        "rating": "4.56",
         "keyFeatures": [
             "Slip-on design for easy wear",
             "Cushioned insole for comfort",
@@ -492,7 +492,7 @@ export const allProducts = [
         "imageSrc": "/images/women2.png",
         "slug": "Mens-Casual-V-Neck-Sweater-abf6c58f-5cfc-47a3-a4e0-46cf719e27d3",
         "imageAlt": "Men's casual V-neck sweater for warmth and style",
-        "rating": "4.7",
+        "rating": "4.77",
         "keyFeatures": [
             "Soft and cozy fabric for warmth",
             "Classic V-neck design for a stylish look",
@@ -511,7 +511,7 @@ export const allProducts = [
         "imageSrc": "/images/women3.png",
         "slug": "Womens-Casual-Drawstring-Shorts-c85b3c87-79df-4a7a-aa3e-cd40fc53f7cd",
         "imageAlt": "Women's casual drawstring shorts for comfort and style",
-        "rating": "4.6",
+        "rating": "4.68",
         "keyFeatures": [
             "Soft and breathable fabric for comfort",
             "Drawstring waist for an adjustable fit",
@@ -530,7 +530,7 @@ export const allProducts = [
         "imageSrc": "/images/women4.png",
         "slug": "Mens-Casual-Cargo-Shorts-7e4817e3-82a7-4cc0-836b-39a93c51e4ce",
         "imageAlt": "Men's casual cargo shorts for outdoor adventures",
-        "rating": "4.8",
+        "rating": "4.89",
         "keyFeatures": [
             "Durable and rugged fabric for outdoor activities",
             "Multiple cargo pockets for storage",
@@ -549,7 +549,7 @@ export const allProducts = [
         "imageSrc": "/images/women1.png",
         "slug": "Womens-Casual-Boho-Maxi-Dress-2a96dd74-ec04-4b38-9960-e0bb3b3d46cc",
         "imageAlt": "Women's casual boho maxi dress for a chic look",
-        "rating": "4.7",
+        "rating": "4.70",
         "keyFeatures": [
             "Lightweight and flowy fabric for comfort",
             "Bohemian-inspired design for a trendy look",
@@ -587,7 +587,7 @@ export const fourMenProducts = [
         "imageSrc": "/images/men1.png",
         "slug": "Mens-Casual-Cargo-Shorts-9f6a35bf-41c6-477f-a6f1-c11d0499d5af",
         "imageAlt": "Men's casual cargo shorts for style and functionality",
-        "rating": "4.6",
+        "rating": "4.16",
         "keyFeatures": [
             "Durable cotton twill for style and functionality",
             "Classic cargo design with multiple pockets",
@@ -606,7 +606,7 @@ export const fourMenProducts = [
         "imageSrc": "/images/men2.png",
         "slug": "Mens-Casual-Hooded-Sweatshirt-16d0dd9a-3c9a-4e36-a0c4-6e260ea106cd",
         "imageAlt": "Men's casual hooded sweatshirt for warmth and style",
-        "rating": "4.5",
+        "rating": "4.52",
         "keyFeatures": [
             "Soft and cozy fleece for warmth and comfort",
             "Classic hooded design",
@@ -625,7 +625,7 @@ export const fourMenProducts = [
         "imageSrc": "/images/men3.png",
         "slug": "Mens-Classic-Dress-Watch-9b2143f9-c4da-4bb3-8f87-6f8f87c9094a",
         "imageAlt": "Men's classic dress watch for style and functionality",
-        "rating": "4.7",
+        "rating": "4.37",
         "keyFeatures": [
             "Timeless round case for a classic look",
             "Genuine leather band for style and comfort",
@@ -643,7 +643,7 @@ export const fourMenProducts = [
         "imageSrc": "/images/men4.png",
         "slug": "Mens-Classic-Leather-Backpack-9c7c8c62-5f34-4ecb-839a-2a05d7b49d9c",
         "imageAlt": "Men's classic leather backpack for durability and style",
-        "rating": "4.7",
+        "rating": "4.74",
         "keyFeatures": [
             "Genuine leather construction for durability and fashion",
             "Timeless backpack design",
@@ -665,7 +665,7 @@ export const fourWomenProducts = [
         "imageSrc": "/images/women1.png",
         "slug": "Womens-Classic-Ankle-Boots-f57b1c60-242f-4c1a-9f18-470d618c0835",
         "imageAlt": "Women's classic ankle boots for style and comfort",
-        "rating": "4.6",
+        "rating": "4.16",
         "keyFeatures": [
             "Faux leather construction for fashion and comfort",
             "Versatile ankle boot design",
@@ -684,7 +684,7 @@ export const fourWomenProducts = [
         "imageSrc": "/images/women2.png",
         "slug": "Womens-Classic-Sunglasses-4f03edf2-7f08-4fb8-b24b-78c7f1f95c11",
         "imageAlt": "Women's classic sunglasses for style and UV protection",
-        "rating": "4.5",
+        "rating": "4.25",
         "keyFeatures": [
             "Timeless square frame for a classic look",
             "Tinted lenses for style and UV protection",
@@ -702,7 +702,7 @@ export const fourWomenProducts = [
         "imageSrc": "/images/women3.png",
         "slug": "Womens-Casual-Striped-Sweater-5eabf142-0e19-4a35-8d9d-f93a16b7e6c8",
         "imageAlt": "Women's casual striped sweater for comfort and style",
-        "rating": "4.5",
+        "rating": "4.35",
         "keyFeatures": [
             "Soft and comfortable fabric for warmth",
             "Classic striped pattern for a casual look",
@@ -721,7 +721,7 @@ export const fourWomenProducts = [
         "imageSrc": "/images/women4.png",
         "slug": "Womens-Casual-Denim-Shorts-b4e3b1ae-9e1b-4f4d-8c82-7d0d3b2fc1ef",
         "imageAlt": "Women's casual denim shorts for style and comfort",
-        "rating": "4.6",
+        "rating": "4.46",
         "keyFeatures": [
             "High-quality denim fabric for durability",
             "Classic denim shorts design for a timeless look",
@@ -740,10 +740,10 @@ export const fourCasualProducts = [
         "brandName": "DenimStyle",
         "price": "$ 54.99",
         "category": "casual",
-        "imageSrc": "mens_slim_fit_jeans.jpg",
+        "imageSrc": "/images/casual1.png",
         "slug": "Mens-Casual-Slim-Fit-Jeans-94f1c8e8-4ed7-4a8a-a936-29a5aaf6f4f3",
         "imageAlt": "Men's casual slim-fit jeans for a laid-back look",
-        "rating": "4.8",
+        "rating": "4.81",
         "keyFeatures": [
             "High-quality denim for style and comfort",
             "Modern slim-fit design",
@@ -759,10 +759,10 @@ export const fourCasualProducts = [
         "brandName": "CasualChic",
         "price": "$ 19.99",
         "category": "casual",
-        "imageSrc": "womens_striped_tshirt.jpg",
+        "imageSrc": "/images/casual2.png",
         "slug": "Womens-Casual-Striped-T-Shirt-be6f913d-8965-4ae9-985e-56307f99cc7d",
         "imageAlt": "Women's casual striped t-shirt for a casual look",
-        "rating": "4.5",
+        "rating": "4.52",
         "keyFeatures": [
             "Soft and breathable cotton for comfort",
             "Classic striped pattern for a casual look",
@@ -777,10 +777,10 @@ export const fourCasualProducts = [
         "brandName": "UrbanStride",
         "price": "$ 39.99",
         "category": "casual",
-        "imageSrc": "mens_canvas_sneakers.jpg",
+        "imageSrc": "/images/casual3.png",
         "slug": "Mens-Casual-Canvas-Sneakers-d1bce7ed-3927-485a-bbe5-110a11c68c3f",
         "imageAlt": "Men's casual canvas sneakers for a stylish look",
-        "rating": "4.6",
+        "rating": "4.63",
         "keyFeatures": [
             "Classic canvas upper for a fashionable look",
             "Lace-up closure for a secure fit",
@@ -795,10 +795,10 @@ export const fourCasualProducts = [
         "brandName": "DenimDaze",
         "price": "$ 59.99",
         "category": "casual",
-        "imageSrc": "womens_denim_jacket.jpg",
+        "imageSrc": "/images/casual4.png",
         "slug": "Womens-Casual-Denim-Jacket-7f3d8a97-1912-4b80-8c09-5b3c187c5e3c",
         "imageAlt": "Women's casual denim jacket for a trendy look",
-        "rating": "4.7",
+        "rating": "4.74",
         "keyFeatures": [
             "Durable denim fabric for a trendy look",
             "Classic denim jacket design with button closures",
@@ -821,7 +821,7 @@ const formalMen = [
         "imageSrc": "mens_leather_gloves.jpg",
         "slug": "Mens-Classic-Leather-Gloves-6e608e17-733d-41e2-9a4a-d2303f17c96d",
         "imageAlt": "Men's classic leather gloves for warmth and style",
-        "rating": "4.6",
+        "rating": "4.65",
         "keyFeatures": [
             "Genuine leather construction for fashion and functionality",
             "Timeless design with a warm lining",
@@ -839,7 +839,7 @@ const formalMen = [
         "imageSrc": "mens_white_tshirt.jpg",
         "slug": "Mens-Classic-White-T-Shirt-ad71f742-49d7-4c82-9a13-9909f9a2f15f",
         "imageAlt": "Men's classic white t-shirt for versatile and comfortable wear",
-        "rating": "4.5",
+        "rating": "4.65",
         "keyFeatures": [
             "Soft and breathable cotton fabric",
             "Timeless crew neckline",
@@ -857,7 +857,7 @@ const formalMen = [
         "imageSrc": "mens_denim_jeans.jpg",
         "slug": "Mens-Classic-Denim-Jeans-2d3ff3a8-0cf4-4821-ba84-fa1636ccf1d2",
         "imageAlt": "Men's denim jeans for durable and stylish wear",
-        "rating": "4.7",
+        "rating": "4.77",
         "keyFeatures": [
             "Premium denim fabric for durability and style",
             "Classic straight-leg design with mid-rise waist",
@@ -875,7 +875,7 @@ const formalMen = [
         "imageSrc": "mens_casual_sneakers.jpg",
         "slug": "Mens-Casual-Sneakers-9f139e83-0347-4dbd-94e7-3f6f1d6f1c64",
         "imageAlt": "Men's casual sneakers for stylish and comfortable everyday wear",
-        "rating": "4.4",
+        "rating": "4.48",
         "keyFeatures": [
             "Synthetic leather upper for style and durability",
             "Cushioned insole for all-day comfort",
@@ -893,7 +893,7 @@ const formalMen = [
         "imageSrc": "mens_casual_chinos.jpg",
         "slug": "Mens-Casual-Chinos-f482daac-50a3-4c07-9df2-d6f1f5a7b6a3",
         "imageAlt": "Men's casual chinos for versatile and comfortable wear",
-        "rating": "4.6",
+        "rating": "4.96",
         "keyFeatures": [
             "Premium cotton twill for comfort and style",
             "Classic straight-leg fit with mid-rise waist",
@@ -911,7 +911,7 @@ const formalMen = [
         "imageSrc": "mens_leather_belt.jpg",
         "slug": "Mens-Classic-Leather-Belt-9deebbe6-0470-4a1b-9dbd-4e1531b6c3f2",
         "imageAlt": "Men's classic leather belt for timeless style",
-        "rating": "4.6",
+        "rating": "4.60",
         "keyFeatures": [
             "Genuine leather construction for durability and style",
             "Classic buckle design",
@@ -932,7 +932,7 @@ const formalWomen = [
         "imageSrc": "womens_trench_coat.jpg",
         "slug": "Womens-Elegant-Trench-Coat-5824c85a-2cf4-40d7-92d6-4ab8745eb2c8",
         "imageAlt": "Women's elegant trench coat for style and functionality",
-        "rating": "4.7",
+        "rating": "4.57",
         "keyFeatures": [
             "High-quality materials for durability and style",
             "Classic double-breasted design",
@@ -951,7 +951,7 @@ const formalWomen = [
         "imageSrc": "womens_crossbody_bag.jpg",
         "slug": "Womens-Leather-Crossbody-Bag-c2f2d876-83e2-4077-9dd1-ea10d26c7884",
         "imageAlt": "Women's leather crossbody bag for style and functionality",
-        "rating": "4.6",
+        "rating": "4.66",
         "keyFeatures": [
             "Genuine leather construction for durability and fashion",
             "Compact yet practical design",
@@ -971,7 +971,7 @@ const formalWomen = [
         "imageSrc": "womens_striped_tshirt.jpg",
         "slug": "Womens-Casual-Striped-T-Shirt-ab1d1302-2269-45a9-86c0-03e8d98e5f13",
         "imageAlt": "Women's casual striped t-shirt for comfortable and stylish wear",
-        "rating": "4.5",
+        "rating": "4.75",
         "keyFeatures": [
             "Soft and breathable cotton for comfort",
             "Classic striped pattern",
@@ -990,7 +990,7 @@ const formalWomen = [
         "imageSrc": "womens_trench_coat.jpg",
         "slug": "Womens-Classic-Trench-Coat-057fbb56-4b68-4dd4-b556-d591587e8f38",
         "imageAlt": "Women's classic trench coat for style and functionality",
-        "rating": "4.7",
+        "rating": "4.78",
         "keyFeatures": [
             "High-quality materials for style and durability",
             "Timeless double-breasted design",
@@ -1009,7 +1009,7 @@ const formalWomen = [
         "imageSrc": "womens_denim_jacket.jpg",
         "slug": "Womens-Classic-Denim-Jacket-aeb25a84-1d6e-4c2c-95a9-fa8d5a94fba7",
         "imageAlt": "Women's classic denim jacket for style and versatility",
-        "rating": "4.7",
+        "rating": "4.97",
         "keyFeatures": [
             "High-quality denim for style and durability",
             "Classic button-up design",
@@ -1028,7 +1028,7 @@ const formalWomen = [
         "imageSrc": "womens_ballet_flats.jpg",
         "slug": "Womens-Classic-Ballet-Flats-dd622e49-0b13-4d9c-a9f3-4e2c9a9d18eb",
         "imageAlt": "Women's classic ballet flats for style and comfort",
-        "rating": "4.6",
+        "rating": "4.60",
         "keyFeatures": [
             "Faux leather construction for style and comfort",
             "Timeless ballet flat design",
@@ -1050,7 +1050,7 @@ const casualWear = [
         "imageSrc": "mens_striped_polo_shirt.jpg",
         "slug": "Mens-Casual-Striped-Polo-Shirt-125d6ae1-12f0-4a9a-9297-1bf2ed24ee3b",
         "imageAlt": "Men's casual striped polo shirt for comfort and style",
-        "rating": "4.6",
+        "rating": "4.65",
         "keyFeatures": [
             "Soft and breathable fabric for comfort",
             "Classic striped pattern for a casual look",
@@ -1068,7 +1068,7 @@ const casualWear = [
         "imageSrc": "womens_slip_on_sneakers.jpg",
         "slug": "Womens-Casual-Slip-On-Sneakers-0e380a7c-26c6-4e7e-8a0f-49ac5a2b72ff",
         "imageAlt": "Women's casual slip-on sneakers for convenience and style",
-        "rating": "4.5",
+        "rating": "4.56",
         "keyFeatures": [
             "Slip-on design for easy wear",
             "Cushioned insole for comfort",
@@ -1086,7 +1086,7 @@ const casualWear = [
         "imageSrc": "mens_vneck_sweater.jpg",
         "slug": "Mens-Casual-V-Neck-Sweater-abf6c58f-5cfc-47a3-a4e0-46cf719e27d3",
         "imageAlt": "Men's casual V-neck sweater for warmth and style",
-        "rating": "4.7",
+        "rating": "4.77",
         "keyFeatures": [
             "Soft and cozy fabric for warmth",
             "Classic V-neck design for a stylish look",
@@ -1105,7 +1105,7 @@ const casualWear = [
         "imageSrc": "womens_drawstring_shorts.jpg",
         "slug": "Womens-Casual-Drawstring-Shorts-c85b3c87-79df-4a7a-aa3e-cd40fc53f7cd",
         "imageAlt": "Women's casual drawstring shorts for comfort and style",
-        "rating": "4.6",
+        "rating": "4.68",
         "keyFeatures": [
             "Soft and breathable fabric for comfort",
             "Drawstring waist for an adjustable fit",
@@ -1124,7 +1124,7 @@ const casualWear = [
         "imageSrc": "mens_cargo_shorts.jpg",
         "slug": "Mens-Casual-Cargo-Shorts-7e4817e3-82a7-4cc0-836b-39a93c51e4ce",
         "imageAlt": "Men's casual cargo shorts for outdoor adventures",
-        "rating": "4.8",
+        "rating": "4.89",
         "keyFeatures": [
             "Durable and rugged fabric for outdoor activities",
             "Multiple cargo pockets for storage",
@@ -1143,7 +1143,7 @@ const casualWear = [
         "imageSrc": "womens_boho_maxi_dress.jpg",
         "slug": "Womens-Casual-Boho-Maxi-Dress-2a96dd74-ec04-4b38-9960-e0bb3b3d46cc",
         "imageAlt": "Women's casual boho maxi dress for a chic look",
-        "rating": "4.7",
+        "rating": "4.70",
         "keyFeatures": [
             "Lightweight and flowy fabric for comfort",
             "Bohemian-inspired design for a trendy look",

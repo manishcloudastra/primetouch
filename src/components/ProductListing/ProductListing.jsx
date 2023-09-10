@@ -4,13 +4,13 @@ import { useState } from "react"
 import { GoArrowRight } from "react-icons/go"
 import FourProducts from "../FourProducts/FourProducts"
 
-export default function ProductListing({ heading, row1, row2 }) {
+export default function ProductListing({ heading, row1, row2, id }) {
     const [showMore, setShowMore] = useState(false)
     const handleToggle = () => {
         setShowMore((val) => !val)
     }
     return (
-        <section className="lg:container mx-auto text-gray-600 bg-white mb-4 lg:mb-8 body-font">
+        <section id={id} className="lg:container mx-auto text-gray-600 bg-white mb-4 lg:mb-8 body-font">
             <h1
                 className={
                     " text-3xl px-6 lg:px-16 pb-8 lg:pb-16 text-[#3E3E3E] uppercase md:text-5xl font-medium  " +

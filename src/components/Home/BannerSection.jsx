@@ -30,8 +30,6 @@ const BannerSection = () => {
         }
     }, []);
 
-    console.log(prod1)
-
     return (
         <div className="bg-center bg-cover bg--landing">
             <div className="flex flex-col mx-auto home--content" >

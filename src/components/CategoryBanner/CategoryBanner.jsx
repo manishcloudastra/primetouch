@@ -17,7 +17,7 @@ const CategoryBanner = ({ backgroundClass, scrollID }) => {
                 </div>
             </div>
             <div className="items-center justify-center hidden h-full pb-2 mt-auto text-black lg:flex">
-                <Link as={NextLink} href={`${scrollID}`} className={`flex items-center space-x-2 ` + lato.className}>
+                <Link as={NextLink} href={`#${scrollID}`} className={`flex items-center space-x-2 ` + lato.className}>
                     <p className='uppercase z-50 ' >scroll down</p>
                     <RxDoubleArrowDown className="text-xl " />
                 </Link>

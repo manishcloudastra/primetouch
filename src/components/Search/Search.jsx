@@ -100,8 +100,6 @@ export const Search = () => {
 };
 
 const SearchedProductList = ({ products, searchText }) => {
-    // console.log('Is it : ',)
-    // console.log('Is it : ',products,searchText)
     return (
         <>
             {
