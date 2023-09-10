@@ -81,6 +81,15 @@ html {
     background-color: #8B4513 !important;
 }
 
+.product--img--hover:hover {
+    transform: scale(1.1);
+    transition-duration: 1000;
+}
+.productview--img--hover:hover {
+    transform: scale(1.025);
+    transition-duration: 1000;
+}
+
 @media screen and (min-width: 768px) {
 	.home--content {
 		width: calc(100vw - 6rem);

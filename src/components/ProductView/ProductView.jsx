@@ -1,36 +1,64 @@
 'use client'
 import { tenor } from "@/app/font";
 import dynamic from "next/dynamic";
+import { useState } from "react";
 import { GoArrowRight } from "react-icons/go";
 const StarRatings = dynamic(() => import("react-star-ratings"), {
     ssr: false,
 });
 
 
-const ProductView = ({productData}) => {
-    console.log(productData)
+const ProductView = ({ productData }) => {
+    const [images, setImages] = useState({
+        img1: productData?.imageSrc,
+        img2: "https://static.nike.com/a/images/f_auto,b_rgb:f5f5f5,w_440/e44d151a-e27a-4f7b-8650-68bc2e8cd37e/scarpa-da-running-su-strada-invincible-3-xk5gLh.png",
+        img3: "https://static.nike.com/a/images/f_auto,b_rgb:f5f5f5,w_440/44fc74b6-0553-4eef-a0cc-db4f815c9450/scarpa-da-running-su-strada-invincible-3-xk5gLh.png",
+        img4: "https://static.nike.com/a/images/f_auto,b_rgb:f5f5f5,w_440/d3eb254d-0901-4158-956a-4610180545e5/scarpa-da-running-su-strada-invincible-3-xk5gLh.png"
+    })
+
+    const [activeImg, setActiveImage] = useState(images.img1)
+
     return (
         <section className="overflow-hidden text-gray-600 body-font">
-            <div className="container px-5 py-24 mx-auto">
+            <div className="container px-5 py-8 mx-auto md:py-12 lg:py-24">
                 <div className="grid gap-6 mx-auto md:grid-cols-2 ">
-                    <img alt="ecommerce" className="object-cover object-center w-full h-64 rounded lg:h-auto " src="https://dummyimage.com/400x400" />
-                    <div className="w-full mt-6 lg:mt-0 lg:py-6 lg:pl-10">
-                        <h2 className="text-sm tracking-widest text-gray-500 title-font">BRAND NAME</h2>
-                        <h1 className="mb-1 text-3xl font-medium text-gray-900 title-font">The Catcher in the Rye</h1>
+                    {/* <img alt={productData?.imageAlt} className="object-cover object-center w-full h-64 rounded lg:h-auto " src={productData?.imageSrc} /> */}
+
+                    <div className='flex flex-col gap-4 lg:flex-row-reverse lg:justify-evenly'>
+                        <img src={activeImg} alt="" className='w-72 h-80 md:h-96 lg:h-[36rem] md:w-[22rem] lg:w-[28rem] aspect-square object-cover object-top rounded mx-auto productview--img--hover' />
+                        <div className='flex flex-row justify-center space-x-2  lg:flex-col md:space-x-3 lg:space-x-0 lg:space-y-4 lg:justify-start'>
+                            <div className="rounded-md active:border-primetouch hover:border-2 hover:border-primetouch-light">
+                                <img src={images.img1} alt="ref1" className='object-cover object-top w-16 h-20 rounded cursor-pointer md:w-20 md:h-24 lg:w-[5.5rem] lg:h-[6.5rem]' onClick={() => setActiveImage(images.img1)} />
+                            </div>
+                            <div className="rounded-md active:border-primetouch hover:border-2 hover:border-primetouch-light">
+                                <img src={images.img2} alt="ref2" className='object-cover object-top w-16 h-20 rounded cursor-pointer md:w-20 md:h-24 lg:w-[5.5rem] lg:h-[6.5rem]' onClick={() => setActiveImage(images.img2)} />
+                            </div>
+                            <div className="rounded-md active:border-primetouch hover:border-2 hover:border-primetouch-light">
+                                <img src={images.img3} alt="ref3" className='object-cover object-top w-16 h-20 rounded cursor-pointer md:w-20 md:h-24 lg:w-[5.5rem] lg:h-[6.5rem]' onClick={() => setActiveImage(images.img3)} />
+                            </div>
+                            <div className="rounded-md active:border-primetouch hover:border-2 hover:border-primetouch-light">
+                                <img src={images.img4} alt="ref4" className='object-cover object-top w-16 h-20 rounded cursor-pointer md:w-20 md:h-24 lg:w-[5.5rem] lg:h-[6.5rem]' onClick={() => setActiveImage(images.img4)} />
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="w-full mt-6 lg:mt-0 lg:py-6 ">
+                        <h2 className="text-sm tracking-widest text-gray-500 title-font">{productData?.brandName}</h2>
+                        <h1 className="mb-1 text-3xl font-medium text-gray-900 title-font">{productData?.productName}</h1>
                         <div className="flex mb-4">
                             <span className="flex items-center">
                                 <StarRatings
-                                    rating={4}
+                                    rating={Number(productData?.rating)}
                                     starDimension="1.25rem"
                                     starSpacing="0.1rem"
                                     svgIconPath="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"
                                     svgIconViewBox="0 0 24 24"
                                     starRatedColor="#8B4513"
                                 />
-                                <span className="ml-3 text-gray-600">4.25 out of 5</span>
+                                <span className="ml-3 text-gray-600">{`${productData?.rating} out of 5`}</span>
                             </span>
                         </div>
-                        <div className="text-2xl font-medium text-gray-900 title-font">$58.00</div>
+                        <div className="text-2xl font-medium text-gray-900 title-font">{productData?.price}</div>
                         <div className="flex items-center mt-6 mb-5">
                             <div className="flex">
                                 <span className="mr-3">Color</span>
@@ -76,7 +104,14 @@ const ProductView = ({productData}) => {
                             </button>
 
                         </div>
-                        <p className="leading-relaxed">Fam locavore kickstarter distillery. Mixtape chillwave tumeric sriracha taximy chia microdosing tilde DIY. XOXO fam indxgo juiceramps cornhole raw denim forage brooklyn. Everyday carry +1 seitan poutine tumeric. Gastropub blue bottle austin listicle pour-over, neutra jean shorts keytar banjo tattooed umami cardigan.</p>
+                        <p className="leading-relaxed">{productData?.productDescription}</p>
+                        <div className="my-4">
+                            <h2 className="my-2 text-sm font-medium tracking-widest text-gray-500 title-font">KEY FEATURES :</h2>
+                            {productData?.keyFeatures.map((keyFeature, idx) => (
+                                <li key={idx} className="py-1 leading-relaxed">{keyFeature}</li>
+                            ))}
+                        </div>
+                        <p className="leading-relaxed">{productData?.productSummary}</p>
                     </div>
                 </div>
             </div>

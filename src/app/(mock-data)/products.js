@@ -1,739 +1,1155 @@
 export const allProducts = [
     {
-        "id": "b16f7b17-16fa-4ff3-aa43-95f75f1f8bf2",
-        "productName": "Brown Leather Oxford Shoes",
-        "productDescription": "Step up your formal footwear game with these handcrafted brown leather Oxford shoes from Heritage Footwear. These classic shoes exude timeless style and are designed for both comfort and elegance. Made from premium leather, they feature intricate brogue details and a leather sole for added durability. Whether you're attending a wedding or a business meeting, these Oxford shoes will complete your look with finesse.",
-        "brandName": "Heritage Footwear",
-        "price": "$199.99",
-        "category": "men",
-        "imageSrc": "brown_leather_oxford_shoes.jpg",
-        "slug": "Brown-Leather-Oxford-Shoes-b16f7b17-16fa-4ff3-aa43-95f75f1f8bf2",
-        "imageAlt": "Brown leather Oxford shoes with brogue details",
-        "rating": "2.8"
-    },
-    {
-        "id": "b9928459-1b8b-4367-ae80-c3bba5be8c80",
-        "productName": "Double-Breasted Blazer",
-        "productDescription": "Make a bold statement at formal events with this sophisticated double-breasted blazer in black from Elegant Styles. Crafted with precision and attention to detail, this blazer features a timeless design that exudes confidence and charm. Its double-breasted front, peak lapels, and tailored fit make it a standout piece in your formal wardrobe.",
-        "brandName": "Elegant Styles",
-        "price": "$349.99",
-        "category": "men",
-        "imageSrc": "double_breasted_blazer.jpg",
-        "slug": "Double-Breasted-Blazer-b9928459-1b8b-4367-ae80-c3bba5be8c80",
-        "imageAlt": "Black double-breasted blazer",
-        "rating": "2.4"
-    },
-    {
-        "id": "1c296b66-a2fa-4f93-ad53-99c50732e904",
-        "productName": "Cufflink Set",
-        "productDescription": "Elevate your formal attire with this elegant cufflink set from Dapper Accessories. These cufflinks are meticulously designed with intricate details, adding a touch of sophistication to your dress shirt. With a variety of styles and designs to choose from, you can effortlessly match them with different outfits for various occasions.",
-        "brandName": "Dapper Accessories",
-        "price": "$49.99",
-        "category": "men",
-        "imageSrc": "cufflink_set.jpg",
-        "slug": "Cufflink-Set-1c296b66-a2fa-4f93-ad53-99c50732e904",
-        "imageAlt": "Cufflink set with various designs",
-        "rating": "3.8"
-    },
-    {
-        "id": "dba82ec9-8a48-47d1-aa6f-93600f91bc10",
-        "productName": "Pinstripe Dress Shirt",
-        "productDescription": "Upgrade your professional wardrobe with this classic pinstripe dress shirt from Executive Wardrobe. Made from high-quality cotton, this shirt offers both comfort and style. Its tailored fit and spread collar provide a polished look that's perfect for business meetings and formal events. The subtle pinstripe pattern adds a touch of elegance to your ensemble.",
-        "brandName": "Executive Wardrobe",
-        "price": "$89.99",
-        "category": "men",
-        "imageSrc": "pinstripe_dress_shirt.jpg",
-        "slug": "Pinstripe-Dress-Shirt-dba82ec9-8a48-47d1-aa6f-93600f91bc10",
-        "imageAlt": "Pinstripe dress shirt with tailored fit",
-        "rating": "1.5"
-    },
-    {
-        "id": "8e9dda84-746e-4589-a7d2-f4f931a43566",
-        "productName": "Black Patent Leather Loafers",
-        "productDescription": "Complete your formal look with these shiny black patent leather loafers from Luxury Steps. These loafers are crafted with precision and are designed to add a touch of luxury to your ensemble. The patent leather finish and sleek design make them ideal for black-tie events, weddings, and formal occasions.",
-        "brandName": "Luxury Steps",
-        "price": "$179.99",
-        "category": "men",
-        "imageSrc": "black_patent_leather_loafers.jpg",
-        "slug": "Black-Patent-Leather-Loafers-8e9dda84-746e-4589-a7d2-f4f931a43566",
-        "imageAlt": "Black patent leather loafers",
-        "rating": "4.7"
-    },
-    {
-        "id": "0f061b4a-9e45-4ec7-8fcd-fb1f0c7c67dc",
-        "productName": "Silk Pocket Square",
-        "productDescription": "Add a touch of refinement to your formal attire with this luxurious silk pocket square in various colors from Gentleman's Accents. Made from high-quality silk, this pocket square is a versatile accessory that can complement a wide range of suits and blazers. Whether you're attending a wedding or a business meeting, this pocket square will enhance your look with a dash of sophistication.",
-        "brandName": "Gentleman's Accents",
-        "price": "$29.99",
-        "category": "men",
-        "imageSrc": "silk_pocket_square.jpg",
-        "slug": "Silk-Pocket-Square-0f061b4a-9e45-4ec7-8fcd-fb1f0c7c67dc",
-        "imageAlt": "Silk pocket square in various colors",
-        "rating": "3.3"
-    },
-    {
-        "id": "4ccc5f3a-173d-43a3-9231-6f8d3620d485",
-        "productName": "Classic Black Suit",
-        "productDescription": "A timeless black suit for formal occasions. This impeccably tailored suit from Bespoke Tailors is the epitome of sophistication and style. Crafted from high-quality wool, it features a classic single-breasted design with peak lapels, providing a sleek and flattering silhouette. The suit jacket is fully lined and has a single back vent for ease of movement. The accompanying flat-front trousers complete the look, ensuring you exude confidence and charm.\n\nWhether you're attending a black-tie event or a corporate gathering, this suit will make you stand out in the crowd. Pair it with a crisp white dress shirt and a silk tie for a sharp and dashing appearance. Invest in this classic black suit, and you'll have a wardrobe staple that will never go out of style.",
-        "brandName": "Bespoke Tailors",
-        "price": "$499.99",
+        "id": "9f6a35bf-41c6-477f-a6f1-c11d0499d5af",
+        "productName": "Men's Casual Cargo Shorts",
+        "productDescription": "Stay cool and comfortable on warm days with these men's casual cargo shorts. Crafted from durable cotton twill, these shorts offer both style and functionality. They feature a classic cargo design with multiple pockets, a relaxed fit, and an adjustable waistband. Whether you're going hiking or just enjoying a day outdoors, these cargo shorts are a practical choice.\n\nExperience style and functionality with these cargo shorts.\n\nKey Features:\n- Durable cotton twill for style and functionality\n- Classic cargo design with multiple pockets\n- Relaxed fit for comfort\n- Adjustable waistband for a custom fit",
+        "brandName": "CasualCraft",
+        "price": "$ 34.99",
         "category": "men",
         "imageSrc": "/images/men1.png",
-        "slug": "Classic-Black-Suit-4ccc5f3a-173d-43a3-9231-6f8d3620d485",
-        "imageAlt": "Elegant black formal suit",
-        "rating": "3.2"
+        "slug": "Mens-Casual-Cargo-Shorts-9f6a35bf-41c6-477f-a6f1-c11d0499d5af",
+        "imageAlt": "Men's casual cargo shorts for style and functionality",
+        "rating": "4.6",
+        "keyFeatures": [
+            "Durable cotton twill for style and functionality",
+            "Classic cargo design with multiple pockets",
+            "Relaxed fit for comfort",
+            "Adjustable waistband for a custom fit"
+        ],
+        "productSummary": "Stay cool and comfortable on warm days with these Men's Casual Cargo Shorts from CasualCraft. Crafted from durable cotton twill, these shorts offer both style and functionality. They feature a classic cargo design with multiple pockets, a relaxed fit for comfort, and an adjustable waistband for a custom fit. Whether you're going hiking or just enjoying a day outdoors, these cargo shorts are a practical choice that keeps you looking and feeling great."
     },
     {
-        "id": "f523c445-ed40-4ec9-a05a-2fc3784c2824",
-        "productName": "White Dress Shirt",
-        "productDescription": "Elevate your formal attire with this crisp and elegant white dress shirt from Fashion Elite. Made from premium cotton, this shirt offers both comfort and style. Its classic fit and spread collar provide a polished look that's perfect for business meetings, weddings, or any formal occasion. The shirt's French cuffs allow you to showcase your favorite cufflinks, adding a personal touch to your ensemble.",
-        "brandName": "Fashion Elite",
-        "price": "$79.99",
+        "id": "16d0dd9a-3c9a-4e36-a0c4-6e260ea106cd",
+        "productName": "Men's Casual Hooded Sweatshirt",
+        "productDescription": "Stay warm and comfortable in style with this men's casual hooded sweatshirt. Crafted from soft and cozy fleece, this sweatshirt offers both warmth and fashion. It features a classic hooded design, a front kangaroo pocket, and ribbed cuffs and hem. Whether you're lounging at home or going for a casual outing, this hooded sweatshirt is a versatile choice.\n\nExperience warmth and style with this hooded sweatshirt.\n\nKey Features:\n- Soft and cozy fleece for warmth and comfort\n- Classic hooded design\n- Front kangaroo pocket for convenience\n- Ribbed cuffs and hem for a snug fit",
+        "brandName": "CozyKnits",
+        "price": "$ 44.99",
         "category": "men",
-        "imageSrc": "white_dress_shirt.jpg",
-        "slug": "White-Dress-Shirt-f523c445-ed40-4ec9-a05a-2fc3784c2824",
-        "imageAlt": "White dress shirt with French cuffs",
-        "rating": "1.5"
+        "imageSrc": "/images/men2.png",
+        "slug": "Mens-Casual-Hooded-Sweatshirt-16d0dd9a-3c9a-4e36-a0c4-6e260ea106cd",
+        "imageAlt": "Men's casual hooded sweatshirt for warmth and style",
+        "rating": "4.5",
+        "keyFeatures": [
+            "Soft and cozy fleece for warmth and comfort",
+            "Classic hooded design",
+            "Front kangaroo pocket for convenience",
+            "Ribbed cuffs and hem for a snug fit"
+        ],
+        "productSummary": "Stay warm and comfortable in style with this Men's Casual Hooded Sweatshirt from CozyKnits. Crafted from soft and cozy fleece, this sweatshirt offers both warmth and fashion. It features a classic hooded design, a front kangaroo pocket for convenience, and ribbed cuffs and hem for a snug fit. Whether you're lounging at home or going for a casual outing, this hooded sweatshirt is a versatile choice that keeps you looking and feeling great."
     },
     {
-        "id": "aa8db75d-152b-436d-b123-b263654f857c",
-        "productName": "Navy Blue Tie",
-        "productDescription": "Complete your formal look with this exquisite silk tie in a rich navy blue color from Accessories Plus. The tie is handcrafted with precision, and its luxurious texture adds a touch of elegance to any outfit. Whether you're attending a wedding or a corporate event, this tie will make a statement.",
-        "brandName": "Accessories Plus",
-        "price": "$39.99",
+        "id": "9b2143f9-c4da-4bb3-8f87-6f8f87c9094a",
+        "productName": "Men's Classic Dress Watch",
+        "productDescription": "Elevate your wrist with this men's classic dress watch. Crafted with precision, this watch offers both style and functionality. It features a timeless round case, a genuine leather band, and a reliable quartz movement. Whether you're dressing up for a formal event or adding a touch of elegance to your everyday attire, this dress watch is a sophisticated choice.\n\nExperience style and functionality with this dress watch.\n\nKey Features:\n- Timeless round case for a classic look\n- Genuine leather band for style and comfort\n- Reliable quartz movement for accuracy",
+        "brandName": "ElegantTime",
+        "price": "$ 69.99",
         "category": "men",
-        "imageSrc": "navy_blue_tie.jpg",
-        "slug": "Navy-Blue-Tie-aa8db75d-152b-436d-b123-b263654f857c",
-        "imageAlt": "Navy blue silk tie",
-        "rating": "2.5"
+        "imageSrc": "/images/men3.png",
+        "slug": "Mens-Classic-Dress-Watch-9b2143f9-c4da-4bb3-8f87-6f8f87c9094a",
+        "imageAlt": "Men's classic dress watch for style and functionality",
+        "rating": "4.7",
+        "keyFeatures": [
+            "Timeless round case for a classic look",
+            "Genuine leather band for style and comfort",
+            "Reliable quartz movement for accuracy"
+        ],
+        "productSummary": "Elevate your wrist with this Men's Classic Dress Watch from ElegantTime. Crafted with precision, this watch offers both style and functionality. It features a timeless round case, a genuine leather band for style and comfort, and a reliable quartz movement for accuracy. Whether you're dressing up for a formal event or adding a touch of elegance to your everyday attire, this dress watch is a sophisticated choice that enhances your look."
     },
     {
-        "id": "56851d87-27c3-40d2-9464-d1fa0c8336be",
-        "productName": "Charcoal Gray Trousers",
-        "productDescription": "Achieve a polished and sophisticated look with these stylish charcoal gray trousers from Modern Classics. These trousers are tailored to perfection, offering a slim fit that complements your physique. They are made from high-quality fabric that is both comfortable and durable. Whether you're dressing up for the office or a formal event, these trousers will make you look sharp and confident.",
-        "brandName": "Modern Classics",
-        "price": "$129.99",
+        "id": "9c7c8c62-5f34-4ecb-839a-2a05d7b49d9c",
+        "productName": "Men's Classic Leather Backpack",
+        "productDescription": "Carry your essentials in style with this men's classic leather backpack. Crafted from genuine leather, this backpack offers both durability and fashion. It features a timeless backpack design, multiple compartments for organization, and adjustable shoulder straps for comfort. Whether you're heading to work or embarking on a weekend adventure, this leather backpack is a versatile choice.\n\nExperience durability and style with this leather backpack.\n\nKey Features:\n- Genuine leather construction for durability and fashion\n- Timeless backpack design\n- Multiple compartments for organization\n- Adjustable shoulder straps for comfort",
+        "brandName": "ClassicStyle",
+        "price": "$ 79.99",
         "category": "men",
-        "imageSrc": "charcoal_gray_trousers.jpg",
-        "slug": "Charcoal-Gray-Trousers-56851d87-27c3-40d2-9464-d1fa0c8336be",
-        "imageAlt": "Charcoal gray slim-fit trousers",
-        "rating": "1.3"
+        "imageSrc": "/images/men4.png",
+        "slug": "Mens-Classic-Leather-Backpack-9c7c8c62-5f34-4ecb-839a-2a05d7b49d9c",
+        "imageAlt": "Men's classic leather backpack for durability and style",
+        "rating": "4.7",
+        "keyFeatures": [
+            "Genuine leather construction for durability and fashion",
+            "Timeless backpack design",
+            "Multiple compartments for organization",
+            "Adjustable shoulder straps for comfort"
+        ],
+        "productSummary": "Carry your essentials in style with this Men's Classic Leather Backpack from ClassicStyle. Crafted from genuine leather, this backpack offers both durability and fashion. It features a timeless backpack design, multiple compartments for organization, and adjustable shoulder straps for comfort. Whether you're heading to work or embarking on a weekend adventure, this leather backpack is a versatile choice that combines durability and style effortlessly."
     },
     {
-        "id": "ad638232-7ce4-476e-aab6-8d7a84435aff",
-        "productName": "Crystal Earrings",
-        "productDescription": "Elevate your jewelry collection with these stunning crystal earrings from Dazzling Jewels. These earrings feature sparkling crystals set in a classic design that adds a touch of glamour to any outfit. Whether you're attending a gala or a special event, these earrings will complement your style and make you shine.",
-        "brandName": "Dazzling Jewels",
-        "price": "$69.99",
-        "category": "women",
-        "imageSrc": "crystal_earrings.jpg",
-        "slug": "Crystal-Earrings-ad638232-7ce4-476e-aab6-8d7a84435aff",
-        "imageAlt": "Sparkling crystal earrings",
-        "rating": "4.7"
+        "id": "6e608e17-733d-41e2-9a4a-d2303f17c96d",
+        "productName": " Classic Leather Gloves",
+        "productDescription": "Stay warm and stylish with these men's classic leather gloves. Crafted from genuine leather, these gloves offer both fashion and functionality. They feature a timeless design with a warm lining and a buttoned wrist closure. Whether you're braving the cold or adding a finishing touch to your outfit, these leather gloves are a versatile choice.\n\nExperience warmth and style with these leather gloves.\n\nKey Features:\n- Genuine leather construction for fashion and functionality\n- Timeless design with a warm lining\n- Buttoned wrist closure for a secure fit",
+        "brandName": "ClassicStyle",
+        "price": "$ 44.99",
+        "category": "men",
+        "imageSrc": "/images/men1.png",
+        "slug": "Mens-Classic-Leather-Gloves-6e608e17-733d-41e2-9a4a-d2303f17c96d",
+        "imageAlt": "Men's classic leather gloves for warmth and style",
+        "rating": "4.6",
+        "keyFeatures": [
+            "Genuine leather construction for fashion and functionality",
+            "Timeless design with a warm lining",
+            "Buttoned wrist closure for a secure fit"
+        ],
+        "productSummary": "Stay warm and stylish with these Men's Classic Leather Gloves from ClassicStyle. Crafted from genuine leather, these gloves offer both fashion and functionality. They feature a timeless design with a warm lining to keep your hands cozy, along with a buttoned wrist closure for a secure fit. Whether you're braving the cold or adding a finishing touch to your outfit, these leather gloves are a versatile choice that combines warmth and style effortlessly."
     },
     {
-        "id": "77a57366-a5f1-4b33-950f-b1dbf21208f9",
-        "productName": "Satin Clutch Bag",
-        "productDescription": "Complete your formal look with this chic satin clutch bag from Fashion Elite. The clutch features a sleek and minimalist design with a satin finish that adds a touch of sophistication to your ensemble. It's the perfect accessory for weddings, parties, and formal events.",
-        "brandName": "Fashion Elite",
-        "price": "$49.99",
-        "category": "women",
-        "imageSrc": "satin_clutch_bag.jpg",
-        "slug": "Satin-Clutch-Bag-77a57366-a5f1-4b33-950f-b1dbf21208f9",
-        "imageAlt": "Satin clutch bag with minimalist design",
-        "rating": "3.3"
+        "id": "ad71f742-49d7-4c82-9a13-9909f9a2f15f",
+        "productName": "Men's Classic White T-Shirt",
+        "productDescription": "Elevate your everyday style with this classic white t-shirt for men. Crafted from soft and breathable cotton, this t-shirt offers superior comfort. It features a timeless crew neckline and a regular fit that suits all body types. Whether you're pairing it with jeans or shorts, this versatile white t-shirt adds a touch of sophistication to your casual look.\n\nExperience comfort and style with this essential wardrobe staple.\n\nKey Features:\n- Soft and breathable cotton fabric\n- Timeless crew neckline\n- Regular fit for all body types",
+        "brandName": "CasualComfort",
+        "price": "$ 19.99",
+        "category": "men",
+        "imageSrc": "/images/men1.png",
+        "slug": "Mens-Classic-White-T-Shirt-ad71f742-49d7-4c82-9a13-9909f9a2f15f",
+        "imageAlt": "Men's classic white t-shirt for versatile and comfortable wear",
+        "rating": "4.5",
+        "keyFeatures": [
+            "Soft and breathable cotton fabric",
+            "Timeless crew neckline",
+            "Regular fit for all body types"
+        ],
+        "productSummary": "Upgrade your wardrobe with this Men's Classic White T-Shirt from CasualComfort. Made from soft and breathable cotton, this t-shirt offers unmatched comfort. It features a timeless crew neckline and a regular fit, making it suitable for all body types. Whether you're dressing up or keeping it casual, this versatile white t-shirt adds a touch of sophistication to your look. With its quality fabric and classic design, it's a must-have staple for any fashion-conscious man."
     },
     {
-        "id": "2fa8d4e6-e927-4f00-818a-85fa26a14103",
-        "productName": "Strappy High Heels",
-        "productDescription": "Step out in style with these strappy high heels from Glamourous Footwear. These heels feature a strappy design that adds a trendy and fashionable touch to your outfit. The versatile nude shade makes them perfect for both formal and casual occasions, and the comfortable heel height ensures you can dance the night away.",
-        "brandName": "Glamourous Footwear",
-        "price": "$89.99",
-        "category": "women",
-        "imageSrc": "strappy_high_heels.jpg",
-        "slug": "Strappy-High-Heels-2fa8d4e6-e927-4f00-818a-85fa26a14103",
-        "imageAlt": "Strappy nude high heels",
-        "rating": "1.4"
+        "id": "2d3ff3a8-0cf4-4821-ba84-fa1636ccf1d2",
+        "productName": "Men's Classic Denim Jeans",
+        "productDescription": "Upgrade your denim collection with these classic men's jeans. Crafted from premium denim fabric, these jeans offer durability and style. They feature a classic straight-leg design with a mid-rise waist. The versatile dark wash complements any outfit, making them a wardrobe essential.\n\nExperience the perfect blend of durability and style with these denim jeans.\n\nKey Features:\n- Premium denim fabric for durability and style\n- Classic straight-leg design with mid-rise waist\n- Versatile dark wash for pairing with any outfit",
+        "brandName": "DenimCraft",
+        "price": "$ 59.99",
+        "category": "men",
+        "imageSrc": "/images/men2.png",
+        "slug": "Mens-Classic-Denim-Jeans-2d3ff3a8-0cf4-4821-ba84-fa1636ccf1d2",
+        "imageAlt": "Men's denim jeans for durable and stylish wear",
+        "rating": "4.7",
+        "keyFeatures": [
+            "Premium denim fabric for durability and style",
+            "Classic straight-leg design with mid-rise waist",
+            "Versatile dark wash for pairing with any outfit"
+        ],
+        "productSummary": "Elevate your denim game with these Men's Classic Denim Jeans from DenimCraft. Crafted from premium denim fabric, these jeans offer the perfect blend of durability and style. They feature a classic straight-leg design with a mid-rise waist for a comfortable fit. The versatile dark wash allows you to pair them with any outfit, making them a versatile addition to your wardrobe."
     },
     {
-        "id": "c46a2634-42ac-4067-9059-2da83a20407b",
-        "productName": "Gold Bracelet",
-        "productDescription": "Add a touch of luxury to your wrist with this exquisite gold bracelet from Jewelry Emporium. The bracelet features a timeless design with intricate detailing and a secure clasp. Whether you're attending a formal event or looking to elevate your everyday style, this gold bracelet is a versatile accessory that adds a touch of elegance to any ensemble.",
-        "brandName": "Jewelry Emporium",
-        "price": "$179.99",
-        "category": "women",
-        "imageSrc": "gold_bracelet.jpg",
-        "slug": "Gold-Bracelet-c46a2634-42ac-4067-9059-2da83a20407b",
-        "imageAlt": "Elegant gold bracelet",
-        "rating": "3.0"
+        "id": "9f139e83-0347-4dbd-94e7-3f6f1d6f1c64",
+        "productName": "Men's Casual Sneakers",
+        "productDescription": "Step up your casual shoe game with these men's sneakers. Crafted for both style and comfort, these sneakers feature a synthetic leather upper and a cushioned insole. The versatile design pairs perfectly with jeans or shorts, making them ideal for everyday wear.\n\nExperience style and comfort with these casual sneakers.\n\nKey Features:\n- Synthetic leather upper for style and durability\n- Cushioned insole for all-day comfort\n- Versatile design for pairing with jeans or shorts",
+        "brandName": "FootFlex",
+        "price": "$ 29.99",
+        "category": "men",
+        "imageSrc": "/images/men3.png",
+        "slug": "Mens-Casual-Sneakers-9f139e83-0347-4dbd-94e7-3f6f1d6f1c64",
+        "imageAlt": "Men's casual sneakers for stylish and comfortable everyday wear",
+        "rating": "4.4",
+        "keyFeatures": [
+            "Synthetic leather upper for style and durability",
+            "Cushioned insole for all-day comfort",
+            "Versatile design for pairing with jeans or shorts"
+        ],
+        "productSummary": "Elevate your casual style with these Men's Casual Sneakers from FootFlex. Crafted with a synthetic leather upper for style and durability, these sneakers also feature a cushioned insole for all-day comfort. Their versatile design makes them a perfect match for jeans or shorts, making them an ideal choice for everyday wear."
     },
     {
-        "id": "8765ee89-508f-4bc0-82d7-4aa1bf5d7f7b",
-        "productName": "Satin Evening Clutch",
-        "productDescription": "Carry your essentials in style with this satin evening clutch from Chic Couture. The clutch features a sleek and sophisticated design with a satin finish that adds a touch of luxury to your evening ensemble. It's the perfect accessory for formal events, weddings, and special occasions.",
-        "brandName": "Chic Couture",
-        "price": "$59.99",
-        "category": "women",
-        "imageSrc": "satin_evening_clutch.jpg",
-        "slug": "Satin-Evening-Clutch-8765ee89-508f-4bc0-82d7-4aa1bf5d7f7b",
-        "imageAlt": "Satin evening clutch with elegant design",
-        "rating": "3.9"
+        "id": "f482daac-50a3-4c07-9df2-d6f1f5a7b6a3",
+        "productName": "Men's Casual Chinos",
+        "productDescription": "Upgrade your casual wardrobe with these versatile men's chinos. Crafted from premium cotton twill, these chinos offer both comfort and style. They feature a classic straight-leg fit and a mid-rise waist. Whether you're dressing up for a dinner date or keeping it casual, these chinos are a versatile addition to your collection.\n\nExperience comfort and style with these classic chinos.\n\nKey Features:\n- Premium cotton twill for comfort and style\n- Classic straight-leg fit with mid-rise waist\n- Versatile design for dressing up or keeping it casual",
+        "brandName": "CasualCraft",
+        "price": "$ 44.99",
+        "category": "men",
+        "imageSrc": "/images/men4.png",
+        "slug": "Mens-Casual-Chinos-f482daac-50a3-4c07-9df2-d6f1f5a7b6a3",
+        "imageAlt": "Men's casual chinos for versatile and comfortable wear",
+        "rating": "4.6",
+        "keyFeatures": [
+            "Premium cotton twill for comfort and style",
+            "Classic straight-leg fit with mid-rise waist",
+            "Versatile design for dressing up or keeping it casual"
+        ],
+        "productSummary": "Elevate your casual wardrobe with these Men's Casual Chinos from CasualCraft. Made from premium cotton twill, these chinos offer both comfort and style. They feature a classic straight-leg fit with a mid-rise waist, making them suitable for dressing up or keeping it casual. Whether you're heading to a dinner date or a relaxed weekend outing, these versatile chinos have got you covered."
     },
     {
-        "id": "de9a5a67-61e3-451c-bc00-be85a4bb2713",
-        "productName": "Diamond Pendant Necklace",
-        "productDescription": "Elevate your jewelry collection with this exquisite diamond pendant necklace from Brilliance Diamonds. The necklace features a dazzling diamond pendant set in a classic design that adds a touch of glamour to any outfit. Whether you're attending a black-tie event or a special occasion, this necklace will enhance your style and make you shine.",
-        "brandName": "Brilliance Diamonds",
-        "price": "$499.99",
-        "category": "women",
-        "imageSrc": "diamond_pendant_necklace.jpg",
-        "slug": "Diamond-Pendant-Necklace-de9a5a67-61e3-451c-bc00-be85a4bb2713",
-        "imageAlt": "Diamond pendant necklace with sparkling diamond",
-        "rating": "3.9"
+        "id": "9deebbe6-0470-4a1b-9dbd-4e1531b6c3f2",
+        "productName": "Men's Classic Leather Belt",
+        "productDescription": "Complete your outfit with this timeless men's leather belt. Crafted from genuine leather, this belt offers both durability and style. It features a classic buckle design and a versatile width that pairs well with jeans or dress pants. Whether you're dressing up for a formal occasion or adding a finishing touch to your everyday look, this leather belt is a must-have accessory.\n\nExperience timeless style with this classic leather belt.\n\nKey Features:\n- Genuine leather construction for durability and style\n- Classic buckle design\n- Versatile width for pairing with jeans or dress pants",
+        "brandName": "ClassicStyle",
+        "price": "$ 29.99",
+        "category": "men",
+        "imageSrc": "/images/men1.png",
+        "slug": "Mens-Classic-Leather-Belt-9deebbe6-0470-4a1b-9dbd-4e1531b6c3f2",
+        "imageAlt": "Men's classic leather belt for timeless style",
+        "rating": "4.6",
+        "keyFeatures": [
+            "Genuine leather construction for durability and style",
+            "Classic buckle design",
+            "Versatile width for pairing with jeans or dress pants"
+        ],
+        "productSummary": "Complete your outfit with timeless style using this Men's Classic Leather Belt from ClassicStyle. Crafted from genuine leather, this belt offers both durability and style. It features a classic buckle design and a versatile width, making it suitable for pairing with jeans or dress pants. Whether you're dressing up for a formal occasion or adding a finishing touch to your everyday look, this leather belt is a must-have accessory."
     },
     {
-        "id": "4d8177df-fa5c-4988-bfc3-378156b09318",
-        "productName": "Elegant Evening Gown",
-        "productDescription": "Make a statement at your next formal event with this elegant evening gown from Chic Couture. The gown features a flowing silhouette with intricate lace and beadwork, creating a look of timeless beauty and sophistication. The plunging V-neckline and open back add a touch of allure to the ensemble, while the full-length skirt adds an element of grace and elegance.\n\nCrafted with meticulous attention to detail, this gown is designed to make you feel like a princess on your special night. Whether you're attending a gala, a wedding, or a formal dinner, this gown will ensure you're the center of attention.\n\nPair it with your favorite heels and minimalistic jewelry to complete the look. Make memories that will last a lifetime in this exquisite evening gown from Chic Couture.",
-        "brandName": "Chic Couture",
-        "price": "$799.99",
-        "category": "women",
-        "imageSrc": "evening_gown.jpg",
-        "slug": "Elegant-Evening-Gown-4d8177df-fa5c-4988-bfc3-378156b09318",
-        "imageAlt": "Stunning evening gown",
-        "rating": "3.8"
-    },
-    {
-        "id": "05e6dc24-2365-486d-8c8d-01a9f59811ea",
-        "productName": "Pearl Necklace",
-        "productDescription": "Enhance your elegance with this exquisite pearl necklace from Glamour Gems. The necklace features lustrous freshwater pearls carefully strung together to create a timeless and sophisticated piece of jewelry. Whether you're attending a formal event or looking to elevate your everyday style, this pearl necklace is a versatile choice that adds a touch of luxury to any outfit.",
-        "brandName": "Glamour Gems",
-        "price": "$249.99",
-        "category": "women",
-        "imageSrc": "pearl_necklace.jpg",
-        "slug": "Pearl-Necklace-05e6dc24-2365-486d-8c8d-01a9f59811ea",
-        "imageAlt": "Elegant pearl necklace",
-        "rating": "4.7"
-    },
-    {
-        "id": "dfdcc7a8-9832-482c-acc0-6e0e162db554",
-        "productName": "Classic Leather Pumps",
-        "productDescription": "Step into elegance with these classic black leather pumps from Luxury Steps. These pumps are designed for both style and comfort, featuring a timeless design with a pointed toe and stiletto heel. Crafted from high-quality leather, they are perfect for formal occasions and will complement a variety of outfits, from dresses to tailored suits.",
-        "brandName": "Luxury Steps",
-        "price": "$189.99",
+        "id": "f57b1c60-242f-4c1a-9f18-470d618c0835",
+        "productName": "Women's Classic Ankle Boots",
+        "productDescription": "Step out in style with these women's classic ankle boots. Crafted from faux leather, these boots offer both fashion and comfort. They feature a versatile ankle boot design, a side zipper for easy wear, and a stacked heel for a trendy look. Whether you're heading to the office or a night out, these ankle boots complete your outfit.\n\nExperience style and comfort with these ankle boots.\n\nKey Features:\n- Faux leather construction for fashion and comfort\n- Versatile ankle boot design\n- Side zipper for easy wear\n- Stacked heel for a trendy look",
+        "brandName": "FashionFusion",
+        "price": "$ 49.99",
         "category": "women",
         "imageSrc": "/images/women1.png",
-        "slug": "Black-Leather-Pumps-dfdcc7a8-9832-482c-acc0-6e0e162db554",
-        "imageAlt": "Black leather pumps with stiletto heel",
-        "rating": "3.5"
+        "slug": "Womens-Classic-Ankle-Boots-f57b1c60-242f-4c1a-9f18-470d618c0835",
+        "imageAlt": "Women's classic ankle boots for style and comfort",
+        "rating": "4.6",
+        "keyFeatures": [
+            "Faux leather construction for fashion and comfort",
+            "Versatile ankle boot design",
+            "Side zipper for easy wear",
+            "Stacked heel for a trendy look"
+        ],
+        "productSummary": "Step out in style with these Women's Classic Ankle Boots from FashionFusion. Crafted from faux leather, these boots offer both fashion and comfort. They feature a versatile ankle boot design, a side zipper for easy wear, and a stacked heel for a trendy look. Whether you're heading to the office or a night out, these ankle boots complete your outfit with style and comfort."
     },
     {
-        "id": "5cb8541a-8723-450e-8076-f3558f8611a7",
-        "productName": "Lace Midi Dress",
-        "productDescription": "Embrace timeless elegance with this lace midi dress from Elegant Styles. The dress features intricate lace detailing that adds a touch of romance and sophistication to your look. The midi length is perfect for formal events, and the flattering fit and flare silhouette ensure you'll turn heads wherever you go.",
-        "brandName": "Elegant Styles",
-        "price": "$159.99",
+        "id": "4f03edf2-7f08-4fb8-b24b-78c7f1f95c11",
+        "productName": "Women's Classic Sunglasses",
+        "productDescription": "Stay stylish and protect your eyes with these women's classic sunglasses. Crafted with precision, these sunglasses offer both fashion and UV protection. They feature a timeless square frame, tinted lenses, and slim arms with logo detailing. Whether you're lounging by the pool or strolling in the city, these classic sunglasses are a chic accessory.\n\nExperience style and UV protection with these sunglasses.\n\nKey Features:\n- Timeless square frame for a classic look\n- Tinted lenses for style and UV protection\n- Slim arms with logo detailing",
+        "brandName": "ElegantWear",
+        "price": "$ 34.99",
         "category": "women",
-        "imageSrc": "lace_midi_dress.jpg",
-        "slug": "Lace-Midi-Dress-5cb8541a-8723-450e-8076-f3558f8611a7",
-        "imageAlt": "Lace midi dress with fit and flare silhouette",
-        "rating": "1.9"
+        "imageSrc": "/images/women2.png",
+        "slug": "Womens-Classic-Sunglasses-4f03edf2-7f08-4fb8-b24b-78c7f1f95c11",
+        "imageAlt": "Women's classic sunglasses for style and UV protection",
+        "rating": "4.5",
+        "keyFeatures": [
+            "Timeless square frame for a classic look",
+            "Tinted lenses for style and UV protection",
+            "Slim arms with logo detailing"
+        ],
+        "productSummary": "Stay stylish and protect your eyes with these Women's Classic Sunglasses from ElegantWear. Crafted with precision, these sunglasses offer both fashion and UV protection. They feature a timeless square frame, tinted lenses for style and UV protection, and slim arms with logo detailing. Whether you're lounging by the pool or strolling in the city, these classic sunglasses are a chic accessory that elevates your style while shielding your eyes from the sun."
     },
     {
-        "id": "f0ceaa4e-7b8d-4463-ada3-11d99e3f5135",
-        "productName": "Denim Jeans",
-        "productDescription": "Upgrade your casual wardrobe with these comfortable and stylish denim jeans from Everyday Denim. Made from high-quality denim fabric, these jeans offer a perfect blend of comfort and durability. The classic straight-leg fit provides versatility, making them suitable for various occasions.\n\nWhether you're running errands, meeting friends, or going on a casual date, these denim jeans will keep you looking effortlessly cool. Pair them with a graphic tee and sneakers for a laid-back look or dress them up with a button-down shirt and leather boots for a more refined style.\n\nEveryday Denim takes pride in crafting timeless pieces that stand the test of time, and these jeans are no exception. Add them to your collection and enjoy a go-to pair of jeans that you'll love to wear.",
-        "brandName": "Everyday Denim",
-        "price": "$59.99",
-        "category": "casual",
-        "imageSrc": "denim_jeans.jpg",
-        "slug": "Denim-Jeans-f0ceaa4e-7b8d-4463-ada3-11d99e3f5135",
-        "imageAlt": "Stylish denim jeans",
-        "rating": "2.4"
+        "id": "5eabf142-0e19-4a35-8d9d-f93a16b7e6c8",
+        "productName": "Women's Casual Striped Sweater",
+        "productDescription": "Stay cozy and stylish with this women's casual striped sweater. Crafted from soft and comfortable fabric, this sweater offers both fashion and warmth. It features a classic striped pattern, a crew neckline, and ribbed cuffs and hem. Whether you're lounging at home or going for a casual outing, this striped sweater is a versatile choice.\n\nExperience comfort and style with this striped sweater.\n\nKey Features:\n- Soft and comfortable fabric for warmth\n- Classic striped pattern for a casual look\n- Crew neckline for a classic touch\n- Ribbed cuffs and hem",
+        "brandName": "CasualComfort",
+        "price": "$ 36.99",
+        "category": "women",
+        "imageSrc": "/images/women3.png",
+        "slug": "Womens-Casual-Striped-Sweater-5eabf142-0e19-4a35-8d9d-f93a16b7e6c8",
+        "imageAlt": "Women's casual striped sweater for comfort and style",
+        "rating": "4.5",
+        "keyFeatures": [
+            "Soft and comfortable fabric for warmth",
+            "Classic striped pattern for a casual look",
+            "Crew neckline for a classic touch",
+            "Ribbed cuffs and hem"
+        ],
+        "productSummary": "Stay cozy and stylish with this Women's Casual Striped Sweater from CasualComfort. Crafted from soft and comfortable fabric, this sweater offers both fashion and warmth. It features a classic striped pattern, a crew neckline, and ribbed cuffs and hem for a casual look. Whether you're lounging at home or going for a casual outing, this striped sweater is a versatile choice that combines comfort and style effortlessly."
     },
     {
-        "id": "6a168871-0a0f-41c8-aa56-98e2995621cf",
-        "productName": "Graphic T-Shirt",
-        "productDescription": "Add some fun and style to your casual look with this graphic t-shirt from Street Style Co. The t-shirt features a trendy graphic print that adds a pop of personality to your outfit. It's made from soft and breathable cotton, ensuring comfort all day long. Whether you're hanging out with friends or exploring the city, this t-shirt is a must-have for your casual wardrobe.",
-        "brandName": "Street Style Co",
-        "price": "$29.99",
-        "category": "casual",
-        "imageSrc": "graphic_t_shirt.jpg",
-        "slug": "Graphic-T-Shirt-6a168871-0a0f-41c8-aa56-98e2995621cf",
-        "imageAlt": "Graphic t-shirt with trendy print",
-        "rating": "3.5"
+        "id": "b4e3b1ae-9e1b-4f4d-8c82-7d0d3b2fc1ef",
+        "productName": "Women's Casual Denim Shorts",
+        "productDescription": "Upgrade your summer wardrobe with these women's casual denim shorts. Made from high-quality denim fabric, these shorts offer both style and comfort. They feature a classic denim shorts design, a mid-rise waist, and frayed hem details. Whether you're heading to the beach or enjoying a sunny day, these denim shorts are a versatile choice.\n\nExperience style and comfort with these denim shorts.\n\nKey Features:\n- High-quality denim fabric for durability\n- Classic denim shorts design for a timeless look\n- Mid-rise waist for a comfortable fit\n- Frayed hem details for added style",
+        "brandName": "DenimDaze",
+        "price": "$ 29.99",
+        "category": "women",
+        "imageSrc": "/images/women4.png",
+        "slug": "Womens-Casual-Denim-Shorts-b4e3b1ae-9e1b-4f4d-8c82-7d0d3b2fc1ef",
+        "imageAlt": "Women's casual denim shorts for style and comfort",
+        "rating": "4.6",
+        "keyFeatures": [
+            "High-quality denim fabric for durability",
+            "Classic denim shorts design for a timeless look",
+            "Mid-rise waist for a comfortable fit",
+            "Frayed hem details for added style"
+        ],
+        "productSummary": "Upgrade your summer wardrobe with these Women's Casual Denim Shorts from DenimDaze. Made from high-quality denim fabric, these shorts offer both style and comfort. They feature a classic denim shorts design with a mid-rise waist and frayed hem details for added style. Whether you're heading to the beach or enjoying a sunny day, these denim shorts are a versatile choice that brings both style and comfort to your summer outfits."
     },
     {
-        "id": "48cc22a2-26b2-43f5-b56d-03c5abf430d3",
-        "productName": "Canvas Sneakers",
-        "productDescription": "Step into comfort and style with these canvas sneakers from Urban Kicks. These sneakers feature a classic design with a durable canvas upper and a rubber sole for traction. Whether you're going for a casual walk or running errands, these sneakers will keep your feet comfortable and your style on point.",
-        "brandName": "Urban Kicks",
-        "price": "$49.99",
-        "category": "casual",
-        "imageSrc": "canvas_sneakers.jpg",
-        "slug": "Canvas-Sneakers-48cc22a2-26b2-43f5-b56d-03c5abf430d3",
-        "imageAlt": "Canvas sneakers in classic design",
-        "rating": "3.3"
+        "id": "5824c85a-2cf4-40d7-92d6-4ab8745eb2c8",
+        "productName": "Women's Elegant Trench Coat",
+        "productDescription": "Stay stylish in any weather with this women's trench coat. Crafted from high-quality materials, this coat offers both elegance and functionality. It features a classic double-breasted design, a waist belt for a flattering fit, and a detachable hood. Whether you're dressing up for a rainy day or adding a layer of sophistication to your outfit, this trench coat is a versatile choice.\n\nExperience elegance and functionality with this trench coat.\n\nKey Features:\n- High-quality materials for durability and style\n- Classic double-breasted design\n- Waist belt for a flattering fit\n- Detachable hood for versatility",
+        "brandName": "ElegantWear",
+        "price": "$ 79.99",
+        "category": "women",
+        "imageSrc": "/images/women1.png",
+        "slug": "Womens-Elegant-Trench-Coat-5824c85a-2cf4-40d7-92d6-4ab8745eb2c8",
+        "imageAlt": "Women's elegant trench coat for style and functionality",
+        "rating": "4.7",
+        "keyFeatures": [
+            "High-quality materials for durability and style",
+            "Classic double-breasted design",
+            "Waist belt for a flattering fit",
+            "Detachable hood for versatility"
+        ],
+        "productSummary": "Stay stylish in any weather with this Women's Elegant Trench Coat from ElegantWear. Crafted from high-quality materials, this coat offers both elegance and functionality. It features a classic double-breasted design, a waist belt for a flattering fit, and a detachable hood for versatility. Whether you're dressing up for a rainy day or adding a layer of sophistication to your outfit, this trench coat is a versatile choice that keeps you looking chic and comfortable."
     },
     {
-        "id": "dc01eee5-fbc0-4ed6-9c0a-92803b90be3c",
-        "productName": "Hooded Sweatshirt",
-        "productDescription": "Stay cozy and comfortable with this hooded sweatshirt from Cozy Comfort. The sweatshirt features a warm and soft fleece lining, making it perfect for chilly days. The hood and front kangaroo pocket add extra functionality and style. Whether you're lounging at home or heading out for a casual outing, this sweatshirt will keep you warm and relaxed.",
-        "brandName": "Cozy Comfort",
-        "price": "$39.99",
-        "category": "casual",
-        "imageSrc": "hooded_sweatshirt.jpg",
-        "slug": "Hooded-Sweatshirt-dc01eee5-fbc0-4ed6-9c0a-92803b90be3c",
-        "imageAlt": "Hooded sweatshirt for casual comfort",
-        "rating": "1.4"
+        "id": "c2f2d876-83e2-4077-9dd1-ea10d26c7884",
+        "productName": "Women's Leather Crossbody Bag",
+        "productDescription": "Accessorize in style with this women's leather crossbody bag. Crafted from genuine leather, this bag offers both durability and fashion. It features a compact yet practical design with multiple pockets, an adjustable strap, and a stylish buckle closure. Whether you're running errands or going out for a night on the town, this crossbody bag complements your outfit.\n\nExperience style and functionality with this leather crossbody bag.\n\nKey Features:\n- Genuine leather construction for durability and fashion\n- Compact yet practical design\n- Multiple pockets for organization\n- Adjustable strap for convenience\n- Stylish buckle closure",
+        "brandName": "FashionFusion",
+        "price": "$ 59.99",
+        "category": "women",
+        "imageSrc": "/images/women1.png",
+        "slug": "Womens-Leather-Crossbody-Bag-c2f2d876-83e2-4077-9dd1-ea10d26c7884",
+        "imageAlt": "Women's leather crossbody bag for style and functionality",
+        "rating": "4.6",
+        "keyFeatures": [
+            "Genuine leather construction for durability and fashion",
+            "Compact yet practical design",
+            "Multiple pockets for organization",
+            "Adjustable strap for convenience",
+            "Stylish buckle closure"
+        ],
+        "productSummary": "Accessorize in style with this Women's Leather Crossbody Bag from FashionFusion. Crafted from genuine leather, this bag offers both durability and fashion. It features a compact yet practical design with multiple pockets, an adjustable strap, and a stylish buckle closure for added convenience. Whether you're running errands or going out for a night on the town, this crossbody bag complements your outfit and keeps your essentials organized."
     },
     {
-        "id": "10a567a5-1502-4345-9e4c-249aecf6e04e",
-        "productName": "Striped Polo Shirt",
-        "productDescription": "Add a touch of sophistication to your casual wardrobe with this striped polo shirt from Classic Casuals. The shirt features a classic polo collar and a timeless striped pattern. It's made from breathable cotton, ensuring comfort on warm days. Whether you're going for a round of golf or a casual brunch, this polo shirt will keep you looking stylish and relaxed.",
-        "brandName": "Classic Casuals",
-        "price": "$34.99",
-        "category": "casual",
-        "imageSrc": "striped_polo_shirt.jpg",
-        "slug": "Striped-Polo-Shirt-10a567a5-1502-4345-9e4c-249aecf6e04e",
-        "imageAlt": "Striped polo shirt for casual style",
-        "rating": "1.9"
+        "id": "ab1d1302-2269-45a9-86c0-03e8d98e5f13",
+        "productName": "Women's Casual Striped T-Shirt",
+        "productDescription": "Add a touch of casual style to your wardrobe with this women's striped t-shirt. Crafted from soft and breathable cotton, this t-shirt offers comfort and fashion. It features a classic striped pattern, a round neckline, and a relaxed fit. Whether you're running errands or meeting friends for coffee, this striped t-shirt is a go-to choice for a laid-back look.\n\nExperience casual comfort with this striped t-shirt.\n\nKey Features:\n- Soft and breathable cotton for comfort\n- Classic striped pattern\n- Round neckline for a timeless look\n- Relaxed fit for a laid-back style",
+        "brandName": "CasualChic",
+        "price": "$ 24.99",
+        "category": "women",
+        "imageSrc": "/images/women2.png",
+        "slug": "Womens-Casual-Striped-T-Shirt-ab1d1302-2269-45a9-86c0-03e8d98e5f13",
+        "imageAlt": "Women's casual striped t-shirt for comfortable and stylish wear",
+        "rating": "4.5",
+        "keyFeatures": [
+            "Soft and breathable cotton for comfort",
+            "Classic striped pattern",
+            "Round neckline for a timeless look",
+            "Relaxed fit for a laid-back style"
+        ],
+        "productSummary": "Add a touch of casual style to your wardrobe with this Women's Casual Striped T-Shirt from CasualChic. Made from soft and breathable cotton, this t-shirt offers both comfort and fashion. It features a classic striped pattern, a round neckline, and a relaxed fit for a laid-back style. Whether you're running errands or meeting friends for coffee, this striped t-shirt is your go-to choice for a comfortable and stylish look."
     },
     {
-        "id": "cc486078-0471-4f90-b6cf-2b3a5c4e144f",
-        "productName": "Classic Backpack",
-        "productDescription": "Carry your essentials in style with this canvas backpack from Adventure Gear. The backpack features a rugged yet stylish design, making it perfect for outdoor adventures or everyday use. It has multiple pockets and compartments to keep your belongings organized, and the padded shoulder straps provide comfort during long journeys.",
-        "brandName": "Adventure Gear",
-        "price": "$69.99",
+        "id": "057fbb56-4b68-4dd4-b556-d591587e8f38",
+        "productName": "Classic Trench Coat",
+        "productDescription": "Stay elegant and prepared for changing weather with this women's classic trench coat. Crafted from high-quality materials, this coat offers both style and functionality. It features a timeless double-breasted design, a waist belt for a flattering fit, and a detachable hood for versatility. Whether you're heading to the office or a weekend getaway, this trench coat keeps you looking chic and comfortable.\n\nExperience elegance and functionality with this trench coat.\n\nKey Features:\n- High-quality materials for style and durability\n- Timeless double-breasted design\n- Waist belt for a flattering fit\n- Detachable hood for versatility",
+        "brandName": "ElegantWear",
+        "price": "$ 79.99",
+        "category": "women",
+        "imageSrc": "/images/women3.png",
+        "slug": "Womens-Classic-Trench-Coat-057fbb56-4b68-4dd4-b556-d591587e8f38",
+        "imageAlt": "Women's classic trench coat for style and functionality",
+        "rating": "4.7",
+        "keyFeatures": [
+            "High-quality materials for style and durability",
+            "Timeless double-breasted design",
+            "Waist belt for a flattering fit",
+            "Detachable hood for versatility"
+        ],
+        "productSummary": "Stay elegant and prepared for changing weather with this Women's Classic Trench Coat from ElegantWear. Crafted from high-quality materials, this coat offers both style and functionality. It features a timeless double-breasted design, a waist belt for a flattering fit, and a detachable hood for versatility. Whether you're heading to the office or a weekend getaway, this trench coat keeps you looking chic and comfortable in any weather."
+    },
+    {
+        "id": "aeb25a84-1d6e-4c2c-95a9-fa8d5a94fba7",
+        "productName": "Women's Classic Denim Jacket",
+        "productDescription": "Add a timeless layer to your outfit with this women's classic denim jacket. Crafted from high-quality denim, this jacket offers both style and versatility. It features a classic button-up design, a flattering silhouette, and functional chest pockets. Whether you're dressing up a casual look or adding a finishing touch to your evening ensemble, this denim jacket is a must-have.\n\nExperience style and versatility with this denim jacket.\n\nKey Features:\n- High-quality denim for style and durability\n- Classic button-up design\n- Flattering silhouette\n- Functional chest pockets",
+        "brandName": "DenimCraft",
+        "price": "$ 54.99",
+        "category": "women",
+        "imageSrc": "/images/women4.png",
+        "slug": "Womens-Classic-Denim-Jacket-aeb25a84-1d6e-4c2c-95a9-fa8d5a94fba7",
+        "imageAlt": "Women's classic denim jacket for style and versatility",
+        "rating": "4.7",
+        "keyFeatures": [
+            "High-quality denim for style and durability",
+            "Classic button-up design",
+            "Flattering silhouette",
+            "Functional chest pockets"
+        ],
+        "productSummary": "Add a timeless layer to your outfit with this Women's Classic Denim Jacket from DenimCraft. Crafted from high-quality denim, this jacket offers both style and versatility. It features a classic button-up design, a flattering silhouette, and functional chest pockets. Whether you're dressing up a casual look or adding a finishing touch to your evening ensemble, this denim jacket is a must-have that enhances your style."
+    },
+    {
+        "id": "dd622e49-0b13-4d9c-a9f3-4e2c9a9d18eb",
+        "productName": "Women's Classic Ballet Flats",
+        "productDescription": "Complete your look with these women's classic ballet flats. Crafted from faux leather, these flats offer both style and comfort. They feature a timeless ballet flat design, a cushioned insole, and a flexible sole for ease of movement. Whether you're dressing up for a special occasion or adding elegance to your everyday outfit, these ballet flats are a versatile choice.\n\nExperience style and comfort with these ballet flats.\n\nKey Features:\n- Faux leather construction for style and comfort\n- Timeless ballet flat design\n- Cushioned insole for all-day comfort\n- Flexible sole for ease of movement",
+        "brandName": "ElegantSteps",
+        "price": "$ 39.99",
+        "category": "women",
+        "imageSrc": "/images/women1.png",
+        "slug": "Womens-Classic-Ballet-Flats-dd622e49-0b13-4d9c-a9f3-4e2c9a9d18eb",
+        "imageAlt": "Women's classic ballet flats for style and comfort",
+        "rating": "4.6",
+        "keyFeatures": [
+            "Faux leather construction for style and comfort",
+            "Timeless ballet flat design",
+            "Cushioned insole for all-day comfort",
+            "Flexible sole for ease of movement"
+        ],
+        "productSummary": "Complete your look with these Women's Classic Ballet Flats from ElegantSteps. Crafted from faux leather, these flats offer both style and comfort. They feature a timeless ballet flat design, a cushioned insole for all-day comfort, and a flexible sole for ease of movement. Whether you're dressing up for a special occasion or adding elegance to your everyday outfit, these ballet flats are a versatile choice that combines style and comfort effortlessly."
+    },
+    {
+        "id": "94f1c8e8-4ed7-4a8a-a936-29a5aaf6f4f3",
+        "productName": "Classic Slim-Fit Jeans",
+        "productDescription": "Achieve a laid-back look with these men's casual slim-fit jeans. Crafted from high-quality denim, these jeans offer both style and comfort. They feature a modern slim-fit design, a classic five-pocket layout, and a zip fly with a button closure. Whether you're hanging out with friends or running errands, these jeans are a versatile choice.\n\nExperience style and comfort with these slim-fit jeans.\n\nKey Features:\n- High-quality denim for style and comfort\n- Modern slim-fit design\n- Classic five-pocket layout\n- Zip fly with button closure",
+        "brandName": "DenimStyle",
+        "price": "$ 54.99",
         "category": "casual",
         "imageSrc": "/images/men1.png",
-        "slug": "Canvas-Backpack-cc486078-0471-4f90-b6cf-2b3a5c4e144f",
-        "imageAlt": "Canvas backpack for outdoor adventures",
-        "rating": "4.5"
+        "slug": "Mens-Casual-Slim-Fit-Jeans-94f1c8e8-4ed7-4a8a-a936-29a5aaf6f4f3",
+        "imageAlt": "Men's casual slim-fit jeans for a laid-back look",
+        "rating": "4.8",
+        "keyFeatures": [
+            "High-quality denim for style and comfort",
+            "Modern slim-fit design",
+            "Classic five-pocket layout",
+            "Zip fly with button closure"
+        ],
+        "productSummary": "Achieve a laid-back look with these Men's Casual Slim-Fit Jeans from DenimStyle. Crafted from high-quality denim, these jeans offer both style and comfort. They feature a modern slim-fit design, a classic five-pocket layout, and a zip fly with a button closure. Whether you're hanging out with friends or running errands, these jeans are a versatile choice that combines style and comfort effortlessly."
     },
     {
-        "id": "346432cf-8b82-4bb8-8b5a-e5e6e89885b9",
-        "productName": "Casual Sneakers",
-        "productDescription": "Upgrade your casual footwear collection with these comfortable and versatile casual sneakers from Everyday Sneaks. These sneakers feature a modern and sleek design with a cushioned insole for all-day comfort. Whether you're exploring the city or heading to a weekend getaway, these sneakers will keep your feet happy and your style on point.",
-        "brandName": "Everyday Sneaks",
-        "price": "$54.99",
+        "id": "be6f913d-8965-4ae9-985e-56307f99cc7d",
+        "productName": "Women's Casual Striped T-Shirt",
+        "productDescription": "Add a touch of casual style to your wardrobe with this women's casual striped t-shirt. Made from soft and breathable cotton, this t-shirt offers both comfort and fashion. It features a classic striped pattern, a round neckline, and short sleeves. Whether you're pairing it with jeans or shorts, this t-shirt is a versatile choice.\n\nExperience comfort and style with this striped t-shirt.\n\nKey Features:\n- Soft and breathable cotton for comfort\n- Classic striped pattern for a casual look\n- Round neckline and short sleeves",
+        "brandName": "CasualChic",
+        "price": "$ 19.99",
         "category": "casual",
-        "imageSrc": "casual_sneakers.jpg",
-        "slug": "Casual-Sneakers-346432cf-8b82-4bb8-8b5a-e5e6e89885b9",
-        "imageAlt": "Casual sneakers for versatile style",
-        "rating": "2.9"
+        "imageSrc": "/images/men2.png",
+        "slug": "Womens-Casual-Striped-T-Shirt-be6f913d-8965-4ae9-985e-56307f99cc7d",
+        "imageAlt": "Women's casual striped t-shirt for a casual look",
+        "rating": "4.5",
+        "keyFeatures": [
+            "Soft and breathable cotton for comfort",
+            "Classic striped pattern for a casual look",
+            "Round neckline and short sleeves"
+        ],
+        "productSummary": "Add a touch of casual style to your wardrobe with this Women's Casual Striped T-Shirt from CasualChic. Made from soft and breathable cotton, this t-shirt offers both comfort and fashion. It features a classic striped pattern, a round neckline, and short sleeves. Whether you're pairing it with jeans or shorts, this t-shirt is a versatile choice that brings comfort and casual style to your outfits."
     },
     {
-        "id": "7c1232f3-8221-476d-8921-881c27560c06",
-        "productName": "Printed Shorts",
-        "productDescription": "Stay cool and stylish on hot days with these printed shorts from Summer Vibes. These shorts feature a trendy print that adds a pop of personality to your summer wardrobe. They are made from lightweight and breathable fabric, ensuring comfort in the heat. Whether you're hitting the beach or enjoying a barbecue, these shorts are a summer essential.",
-        "brandName": "Summer Vibes",
-        "price": "$44.99",
+        "id": "d1bce7ed-3927-485a-bbe5-110a11c68c3f",
+        "productName": "Men's Casual Canvas Sneakers",
+        "productDescription": "Step out in style with these men's casual canvas sneakers. Crafted with care, these sneakers offer both fashion and comfort. They feature a classic canvas upper, a lace-up closure, and a cushioned insole. Whether you're going for a walk or meeting friends, these sneakers are a versatile choice.\n\nExperience style and comfort with these canvas sneakers.\n\nKey Features:\n- Classic canvas upper for a fashionable look\n- Lace-up closure for a secure fit\n- Cushioned insole for comfort",
+        "brandName": "UrbanStride",
+        "price": "$ 39.99",
         "category": "casual",
-        "imageSrc": "printed_shorts.jpg",
-        "slug": "Printed-Shorts-7c1232f3-8221-476d-8921-881c27560c06",
-        "imageAlt": "Printed shorts for summer style",
-        "rating": "1.5"
+        "imageSrc": "/images/men3.png",
+        "slug": "Mens-Casual-Canvas-Sneakers-d1bce7ed-3927-485a-bbe5-110a11c68c3f",
+        "imageAlt": "Men's casual canvas sneakers for a stylish look",
+        "rating": "4.6",
+        "keyFeatures": [
+            "Classic canvas upper for a fashionable look",
+            "Lace-up closure for a secure fit",
+            "Cushioned insole for comfort"
+        ],
+        "productSummary": "Step out in style with these Men's Casual Canvas Sneakers from UrbanStride. Crafted with care, these sneakers offer both fashion and comfort. They feature a classic canvas upper, a lace-up closure for a secure fit, and a cushioned insole for comfort. Whether you're going for a walk or meeting friends, these sneakers are a versatile choice that combines style and comfort effortlessly."
     },
     {
-        "id": "b445e639-9437-44d7-a1e0-c218bb8c96e9",
-        "productName": "Casual Sunglasses",
-        "productDescription": "Protect your eyes in style with these casual sunglasses from Sun Shades. These sunglasses feature a classic design with UV protection lenses. Whether you're at the beach, driving, or just enjoying a sunny day, these sunglasses will keep your eyes shielded from the sun's harmful rays while adding a touch of coolness to your look.",
-        "brandName": "Sun Shades",
-        "price": "$19.99",
+        "id": "7f3d8a97-1912-4b80-8c09-5b3c187c5e3c",
+        "productName": "Women's Casual Denim Jacket",
+        "productDescription": "Upgrade your casual look with this women's casual denim jacket. Made from durable denim fabric, this jacket offers both style and versatility. It features a classic denim jacket design with button closures, chest pockets, and a stylish wash. Whether you're layering it over a dress or pairing it with jeans, this denim jacket is a fashionable choice.\n\nExperience style and versatility with this denim jacket.\n\nKey Features:\n- Durable denim fabric for a trendy look\n- Classic denim jacket design with button closures\n- Chest pockets for added style\n- Stylish wash for a fashionable touch",
+        "brandName": "DenimDaze",
+        "price": "$ 59.99",
         "category": "casual",
-        "imageSrc": "casual_sunglasses.jpg",
-        "slug": "Casual-Sunglasses-b445e639-9437-44d7-a1e0-c218bb8c96e9",
-        "imageAlt": "Casual sunglasses with UV protection",
-        "rating": "2.6"
+        "imageSrc": "/images/men4.png",
+        "slug": "Womens-Casual-Denim-Jacket-7f3d8a97-1912-4b80-8c09-5b3c187c5e3c",
+        "imageAlt": "Women's casual denim jacket for a trendy look",
+        "rating": "4.7",
+        "keyFeatures": [
+            "Durable denim fabric for a trendy look",
+            "Classic denim jacket design with button closures",
+            "Chest pockets for added style",
+            "Stylish wash for a fashionable touch"
+        ],
+        "productSummary": "Upgrade your casual look with this Women's Casual Denim Jacket from DenimDaze. Made from durable denim fabric, this jacket offers both style and versatility. It features a classic denim jacket design with button closures, chest pockets, and a stylish wash for a fashionable touch. Whether you're layering it over a dress or pairing it with jeans, this denim jacket is a trendy choice that adds style to your casual outfits."
     },
     {
-        "id": "d2b3e8d8-e26a-46ef-bb4e-1c6b1277ee9b",
-        "productName": "Straw Hat",
-        "productDescription": "Stay shaded and stylish with this straw hat from Beach Breeze. The hat features a classic straw construction with a wide brim that provides ample sun protection. Whether you're lounging by the pool, strolling on the boardwalk, or heading to a summer picnic, this straw hat will keep you cool and fashionable.",
-        "brandName": "Beach Breeze",
-        "price": "$24.99",
+        "id": "125d6ae1-12f0-4a9a-9297-1bf2ed24ee3b",
+        "productName": "Men's Casual Striped Polo Shirt",
+        "productDescription": "Stay comfortable and stylish with this men's casual striped polo shirt. Crafted from soft and breathable fabric, this polo shirt offers both fashion and comfort. It features a classic striped pattern, a ribbed collar, and a button placket. Whether you're heading to a casual gathering or running errands, this polo shirt is a versatile choice.\n\nExperience comfort and style with this striped polo shirt.\n\nKey Features:\n- Soft and breathable fabric for comfort\n- Classic striped pattern for a casual look\n- Ribbed collar and button placket",
+        "brandName": "CasualWear",
+        "price": "$ 29.99",
         "category": "casual",
-        "imageSrc": "straw_hat.jpg",
-        "slug": "Straw-Hat-d2b3e8d8-e26a-46ef-bb4e-1c6b1277ee9b",
-        "imageAlt": "Straw hat for sun protection and style",
-        "rating": "4.5"
-    }
+        "imageSrc": "/images/men1.png",
+        "slug": "Mens-Casual-Striped-Polo-Shirt-125d6ae1-12f0-4a9a-9297-1bf2ed24ee3b",
+        "imageAlt": "Men's casual striped polo shirt for comfort and style",
+        "rating": "4.6",
+        "keyFeatures": [
+            "Soft and breathable fabric for comfort",
+            "Classic striped pattern for a casual look",
+            "Ribbed collar and button placket"
+        ],
+        "productSummary": "Stay comfortable and stylish with this Men's Casual Striped Polo Shirt from CasualWear. Crafted from soft and breathable fabric, this polo shirt offers both fashion and comfort. It features a classic striped pattern, a ribbed collar, and a button placket for a casual look. Whether you're heading to a casual gathering or running errands, this polo shirt is a versatile choice that combines comfort and style effortlessly."
+    },
+    {
+        "id": "0e380a7c-26c6-4e7e-8a0f-49ac5a2b72ff",
+        "productName": "Women's Casual Slip-On Sneakers",
+        "productDescription": "Step into comfort and style with these women's casual slip-on sneakers. Crafted for ease, these sneakers offer both fashion and convenience. They feature a slip-on design, a cushioned insole, and a textured outsole for traction. Whether you're going for a quick walk or relaxing at home, these slip-on sneakers are a versatile choice.\n\nExperience convenience and style with these slip-on sneakers.\n\nKey Features:\n- Slip-on design for easy wear\n- Cushioned insole for comfort\n- Textured outsole for traction",
+        "brandName": "CasualStep",
+        "price": "$ 34.99",
+        "category": "casual",
+        "imageSrc": "/images/women1.png",
+        "slug": "Womens-Casual-Slip-On-Sneakers-0e380a7c-26c6-4e7e-8a0f-49ac5a2b72ff",
+        "imageAlt": "Women's casual slip-on sneakers for convenience and style",
+        "rating": "4.5",
+        "keyFeatures": [
+            "Slip-on design for easy wear",
+            "Cushioned insole for comfort",
+            "Textured outsole for traction"
+        ],
+        "productSummary": "Step into comfort and style with these Women's Casual Slip-On Sneakers from CasualStep. Crafted for ease, these sneakers offer both fashion and convenience. They feature a slip-on design for easy wear, a cushioned insole for comfort, and a textured outsole for traction. Whether you're going for a quick walk or relaxing at home, these slip-on sneakers are a versatile choice that combines convenience and style effortlessly."
+    },
+    {
+        "id": "abf6c58f-5cfc-47a3-a4e0-46cf719e27d3",
+        "productName": "Men's Casual V-Neck Sweater",
+        "productDescription": "Stay warm and stylish with this men's casual V-neck sweater. Crafted from soft and cozy fabric, this sweater offers both fashion and warmth. It features a classic V-neck design, ribbed cuffs and hem, and a relaxed fit. Whether you're layering it over a shirt or wearing it on its own, this V-neck sweater is a versatile choice.\n\nExperience warmth and style with this V-neck sweater.\n\nKey Features:\n- Soft and cozy fabric for warmth\n- Classic V-neck design for a stylish look\n- Ribbed cuffs and hem\n- Relaxed fit for comfort",
+        "brandName": "CasualKnit",
+        "price": "$ 49.99",
+        "category": "casual",
+        "imageSrc": "/images/women2.png",
+        "slug": "Mens-Casual-V-Neck-Sweater-abf6c58f-5cfc-47a3-a4e0-46cf719e27d3",
+        "imageAlt": "Men's casual V-neck sweater for warmth and style",
+        "rating": "4.7",
+        "keyFeatures": [
+            "Soft and cozy fabric for warmth",
+            "Classic V-neck design for a stylish look",
+            "Ribbed cuffs and hem",
+            "Relaxed fit for comfort"
+        ],
+        "productSummary": "Stay warm and stylish with this Men's Casual V-Neck Sweater from CasualKnit. Crafted from soft and cozy fabric, this sweater offers both fashion and warmth. It features a classic V-neck design, ribbed cuffs and hem, and a relaxed fit for comfort. Whether you're layering it over a shirt or wearing it on its own, this V-neck sweater is a versatile choice that combines warmth and style effortlessly."
+    },
+    {
+        "id": "c85b3c87-79df-4a7a-aa3e-cd40fc53f7cd",
+        "productName": "Women's Casual Drawstring Shorts",
+        "productDescription": "Enjoy comfort and style with these women's casual drawstring shorts. Made from soft and breathable fabric, these shorts offer both fashion and ease of movement. They feature a drawstring waist, side pockets, and a relaxed fit. Whether you're lounging at home or heading to the beach, these drawstring shorts are a versatile choice.\n\nExperience comfort and style with these drawstring shorts.\n\nKey Features:\n- Soft and breathable fabric for comfort\n- Drawstring waist for an adjustable fit\n- Side pockets for convenience\n- Relaxed fit for ease of movement",
+        "brandName": "CasualEase",
+        "price": "$ 24.99",
+        "category": "casual",
+        "imageSrc": "/images/women3.png",
+        "slug": "Womens-Casual-Drawstring-Shorts-c85b3c87-79df-4a7a-aa3e-cd40fc53f7cd",
+        "imageAlt": "Women's casual drawstring shorts for comfort and style",
+        "rating": "4.6",
+        "keyFeatures": [
+            "Soft and breathable fabric for comfort",
+            "Drawstring waist for an adjustable fit",
+            "Side pockets for convenience",
+            "Relaxed fit for ease of movement"
+        ],
+        "productSummary": "Enjoy comfort and style with these Women's Casual Drawstring Shorts from CasualEase. Made from soft and breathable fabric, these shorts offer both fashion and ease of movement. They feature a drawstring waist for an adjustable fit, side pockets for convenience, and a relaxed fit for ease of movement. Whether you're lounging at home or heading to the beach, these drawstring shorts are a versatile choice that combines comfort and style effortlessly."
+    },
+    {
+        "id": "7e4817e3-82a7-4cc0-836b-39a93c51e4ce",
+        "productName": "Men's Casual Cargo Shorts",
+        "productDescription": "Get ready for outdoor adventures with these men's casual cargo shorts. Made from durable and rugged fabric, these shorts offer both style and functionality. They feature multiple cargo pockets, a zip fly with a button closure, and an adjustable drawstring waist. Whether you're hiking or exploring, these cargo shorts are a versatile choice.\n\nExperience style and functionality with these cargo shorts.\n\nKey Features:\n- Durable and rugged fabric for outdoor activities\n- Multiple cargo pockets for storage\n- Zip fly with button closure for convenience\n- Adjustable drawstring waist for a customized fit",
+        "brandName": "OutdoorReady",
+        "price": "$ 39.99",
+        "category": "casual",
+        "imageSrc": "/images/women4.png",
+        "slug": "Mens-Casual-Cargo-Shorts-7e4817e3-82a7-4cc0-836b-39a93c51e4ce",
+        "imageAlt": "Men's casual cargo shorts for outdoor adventures",
+        "rating": "4.8",
+        "keyFeatures": [
+            "Durable and rugged fabric for outdoor activities",
+            "Multiple cargo pockets for storage",
+            "Zip fly with button closure for convenience",
+            "Adjustable drawstring waist for a customized fit"
+        ],
+        "productSummary": "Get ready for outdoor adventures with these Men's Casual Cargo Shorts from OutdoorReady. Made from durable and rugged fabric, these shorts offer both style and functionality. They feature multiple cargo pockets for storage, a zip fly with a button closure for convenience, and an adjustable drawstring waist for a customized fit. Whether you're hiking or exploring, these cargo shorts are a versatile choice that combines style and functionality effortlessly."
+    },
+    {
+        "id": "2a96dd74-ec04-4b38-9960-e0bb3b3d46cc",
+        "productName": "Women's Casual Boho Maxi Dress",
+        "productDescription": "Elevate your casual style with this women's casual boho maxi dress. Made from lightweight and flowy fabric, this maxi dress offers both fashion and comfort. It features a bohemian-inspired design, a V-neckline, and adjustable spaghetti straps. Whether you're going to a beach party or enjoying a summer day, this boho maxi dress is a versatile choice.\n\nExperience boho chic with this maxi dress.\n\nKey Features:\n- Lightweight and flowy fabric for comfort\n- Bohemian-inspired design for a trendy look\n- V-neckline and adjustable spaghetti straps",
+        "brandName": "BohoChic",
+        "price": "$ 44.99",
+        "category": "casual",
+        "imageSrc": "/images/women1.png",
+        "slug": "Womens-Casual-Boho-Maxi-Dress-2a96dd74-ec04-4b38-9960-e0bb3b3d46cc",
+        "imageAlt": "Women's casual boho maxi dress for a chic look",
+        "rating": "4.7",
+        "keyFeatures": [
+            "Lightweight and flowy fabric for comfort",
+            "Bohemian-inspired design for a trendy look",
+            "V-neckline and adjustable spaghetti straps"
+        ],
+        "productSummary": "Elevate your casual style with this Women's Casual Boho Maxi Dress from BohoChic. Made from lightweight and flowy fabric, this maxi dress offers both fashion and comfort. It features a bohemian-inspired design with a V-neckline and adjustable spaghetti straps for a trendy look. Whether you're going to a beach party or enjoying a summer day, this boho maxi dress is a versatile choice that brings boho chic to your wardrobe."
+    },
+    
 ]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 export const fourMenProducts = [
     {
-        "id": "b16f7b17-16fa-4ff3-aa43-95f75f1f8bf2",
-        "productName": "Brown Leather Oxford Shoes",
-        "productDescription": "Step up your formal footwear game with these handcrafted brown leather Oxford shoes from Heritage Footwear. These classic shoes exude timeless style and are designed for both comfort and elegance. Made from premium leather, they feature intricate brogue details and a leather sole for added durability. Whether you're attending a wedding or a business meeting, these Oxford shoes will complete your look with finesse.",
-        "brandName": "Heritage Footwear",
-        "price": "$199.99",
+        "id": "9f6a35bf-41c6-477f-a6f1-c11d0499d5af",
+        "productName": "Men's Casual Cargo Shorts",
+        "productDescription": "Stay cool and comfortable on warm days with these men's casual cargo shorts. Crafted from durable cotton twill, these shorts offer both style and functionality. They feature a classic cargo design with multiple pockets, a relaxed fit, and an adjustable waistband. Whether you're going hiking or just enjoying a day outdoors, these cargo shorts are a practical choice.\n\nExperience style and functionality with these cargo shorts.\n\nKey Features:\n- Durable cotton twill for style and functionality\n- Classic cargo design with multiple pockets\n- Relaxed fit for comfort\n- Adjustable waistband for a custom fit",
+        "brandName": "CasualCraft",
+        "price": "$ 34.99",
         "category": "men",
-        "imageSrc": "brown_leather_oxford_shoes.jpg",
-        "slug": "Brown-Leather-Oxford-Shoes-b16f7b17-16fa-4ff3-aa43-95f75f1f8bf2",
-        "imageAlt": "Brown leather Oxford shoes with brogue details",
-        "rating": "2.8"
+        "imageSrc": "/images/men1.png",
+        "slug": "Mens-Casual-Cargo-Shorts-9f6a35bf-41c6-477f-a6f1-c11d0499d5af",
+        "imageAlt": "Men's casual cargo shorts for style and functionality",
+        "rating": "4.6",
+        "keyFeatures": [
+            "Durable cotton twill for style and functionality",
+            "Classic cargo design with multiple pockets",
+            "Relaxed fit for comfort",
+            "Adjustable waistband for a custom fit"
+        ],
+        "productSummary": "Stay cool and comfortable on warm days with these Men's Casual Cargo Shorts from CasualCraft. Crafted from durable cotton twill, these shorts offer both style and functionality. They feature a classic cargo design with multiple pockets, a relaxed fit for comfort, and an adjustable waistband for a custom fit. Whether you're going hiking or just enjoying a day outdoors, these cargo shorts are a practical choice that keeps you looking and feeling great."
     },
     {
-        "id": "b9928459-1b8b-4367-ae80-c3bba5be8c80",
-        "productName": "Double-Breasted Blazer",
-        "productDescription": "Make a bold statement at formal events with this sophisticated double-breasted blazer in black from Elegant Styles. Crafted with precision and attention to detail, this blazer features a timeless design that exudes confidence and charm. Its double-breasted front, peak lapels, and tailored fit make it a standout piece in your formal wardrobe.",
-        "brandName": "Elegant Styles",
-        "price": "$349.99",
+        "id": "16d0dd9a-3c9a-4e36-a0c4-6e260ea106cd",
+        "productName": "Men's Casual Hooded Sweatshirt",
+        "productDescription": "Stay warm and comfortable in style with this men's casual hooded sweatshirt. Crafted from soft and cozy fleece, this sweatshirt offers both warmth and fashion. It features a classic hooded design, a front kangaroo pocket, and ribbed cuffs and hem. Whether you're lounging at home or going for a casual outing, this hooded sweatshirt is a versatile choice.\n\nExperience warmth and style with this hooded sweatshirt.\n\nKey Features:\n- Soft and cozy fleece for warmth and comfort\n- Classic hooded design\n- Front kangaroo pocket for convenience\n- Ribbed cuffs and hem for a snug fit",
+        "brandName": "CozyKnits",
+        "price": "$ 44.99",
         "category": "men",
-        "imageSrc": "double_breasted_blazer.jpg",
-        "slug": "Double-Breasted-Blazer-b9928459-1b8b-4367-ae80-c3bba5be8c80",
-        "imageAlt": "Black double-breasted blazer",
-        "rating": "2.4"
+        "imageSrc": "/images/men2.png",
+        "slug": "Mens-Casual-Hooded-Sweatshirt-16d0dd9a-3c9a-4e36-a0c4-6e260ea106cd",
+        "imageAlt": "Men's casual hooded sweatshirt for warmth and style",
+        "rating": "4.5",
+        "keyFeatures": [
+            "Soft and cozy fleece for warmth and comfort",
+            "Classic hooded design",
+            "Front kangaroo pocket for convenience",
+            "Ribbed cuffs and hem for a snug fit"
+        ],
+        "productSummary": "Stay warm and comfortable in style with this Men's Casual Hooded Sweatshirt from CozyKnits. Crafted from soft and cozy fleece, this sweatshirt offers both warmth and fashion. It features a classic hooded design, a front kangaroo pocket for convenience, and ribbed cuffs and hem for a snug fit. Whether you're lounging at home or going for a casual outing, this hooded sweatshirt is a versatile choice that keeps you looking and feeling great."
     },
     {
-        "id": "1c296b66-a2fa-4f93-ad53-99c50732e904",
-        "productName": "Cufflink Set",
-        "productDescription": "Elevate your formal attire with this elegant cufflink set from Dapper Accessories. These cufflinks are meticulously designed with intricate details, adding a touch of sophistication to your dress shirt. With a variety of styles and designs to choose from, you can effortlessly match them with different outfits for various occasions.",
-        "brandName": "Dapper Accessories",
-        "price": "$49.99",
+        "id": "9b2143f9-c4da-4bb3-8f87-6f8f87c9094a",
+        "productName": "Men's Classic Dress Watch",
+        "productDescription": "Elevate your wrist with this men's classic dress watch. Crafted with precision, this watch offers both style and functionality. It features a timeless round case, a genuine leather band, and a reliable quartz movement. Whether you're dressing up for a formal event or adding a touch of elegance to your everyday attire, this dress watch is a sophisticated choice.\n\nExperience style and functionality with this dress watch.\n\nKey Features:\n- Timeless round case for a classic look\n- Genuine leather band for style and comfort\n- Reliable quartz movement for accuracy",
+        "brandName": "ElegantTime",
+        "price": "$ 69.99",
         "category": "men",
-        "imageSrc": "cufflink_set.jpg",
-        "slug": "Cufflink-Set-1c296b66-a2fa-4f93-ad53-99c50732e904",
-        "imageAlt": "Cufflink set with various designs",
-        "rating": "3.8"
+        "imageSrc": "/images/men3.png",
+        "slug": "Mens-Classic-Dress-Watch-9b2143f9-c4da-4bb3-8f87-6f8f87c9094a",
+        "imageAlt": "Men's classic dress watch for style and functionality",
+        "rating": "4.7",
+        "keyFeatures": [
+            "Timeless round case for a classic look",
+            "Genuine leather band for style and comfort",
+            "Reliable quartz movement for accuracy"
+        ],
+        "productSummary": "Elevate your wrist with this Men's Classic Dress Watch from ElegantTime. Crafted with precision, this watch offers both style and functionality. It features a timeless round case, a genuine leather band for style and comfort, and a reliable quartz movement for accuracy. Whether you're dressing up for a formal event or adding a touch of elegance to your everyday attire, this dress watch is a sophisticated choice that enhances your look."
     },
     {
-        "id": "dba82ec9-8a48-47d1-aa6f-93600f91bc10",
-        "productName": "Pinstripe Dress Shirt",
-        "productDescription": "Upgrade your professional wardrobe with this classic pinstripe dress shirt from Executive Wardrobe. Made from high-quality cotton, this shirt offers both comfort and style. Its tailored fit and spread collar provide a polished look that's perfect for business meetings and formal events. The subtle pinstripe pattern adds a touch of elegance to your ensemble.",
-        "brandName": "Executive Wardrobe",
-        "price": "$89.99",
+        "id": "9c7c8c62-5f34-4ecb-839a-2a05d7b49d9c",
+        "productName": "Men's Classic Leather Backpack",
+        "productDescription": "Carry your essentials in style with this men's classic leather backpack. Crafted from genuine leather, this backpack offers both durability and fashion. It features a timeless backpack design, multiple compartments for organization, and adjustable shoulder straps for comfort. Whether you're heading to work or embarking on a weekend adventure, this leather backpack is a versatile choice.\n\nExperience durability and style with this leather backpack.\n\nKey Features:\n- Genuine leather construction for durability and fashion\n- Timeless backpack design\n- Multiple compartments for organization\n- Adjustable shoulder straps for comfort",
+        "brandName": "ClassicStyle",
+        "price": "$ 79.99",
         "category": "men",
-        "imageSrc": "pinstripe_dress_shirt.jpg",
-        "slug": "Pinstripe-Dress-Shirt-dba82ec9-8a48-47d1-aa6f-93600f91bc10",
-        "imageAlt": "Pinstripe dress shirt with tailored fit",
-        "rating": "1.5"
+        "imageSrc": "/images/men4.png",
+        "slug": "Mens-Classic-Leather-Backpack-9c7c8c62-5f34-4ecb-839a-2a05d7b49d9c",
+        "imageAlt": "Men's classic leather backpack for durability and style",
+        "rating": "4.7",
+        "keyFeatures": [
+            "Genuine leather construction for durability and fashion",
+            "Timeless backpack design",
+            "Multiple compartments for organization",
+            "Adjustable shoulder straps for comfort"
+        ],
+        "productSummary": "Carry your essentials in style with this Men's Classic Leather Backpack from ClassicStyle. Crafted from genuine leather, this backpack offers both durability and fashion. It features a timeless backpack design, multiple compartments for organization, and adjustable shoulder straps for comfort. Whether you're heading to work or embarking on a weekend adventure, this leather backpack is a versatile choice that combines durability and style effortlessly."
     },
 ]
 
 export const fourWomenProducts = [
     {
-        "id": "ad638232-7ce4-476e-aab6-8d7a84435aff",
-        "productName": "Crystal Earrings",
-        "productDescription": "Elevate your jewelry collection with these stunning crystal earrings from Dazzling Jewels. These earrings feature sparkling crystals set in a classic design that adds a touch of glamour to any outfit. Whether you're attending a gala or a special event, these earrings will complement your style and make you shine.",
-        "brandName": "Dazzling Jewels",
-        "price": "$69.99",
+        "id": "f57b1c60-242f-4c1a-9f18-470d618c0835",
+        "productName": "Women's Classic Ankle Boots",
+        "productDescription": "Step out in style with these women's classic ankle boots. Crafted from faux leather, these boots offer both fashion and comfort. They feature a versatile ankle boot design, a side zipper for easy wear, and a stacked heel for a trendy look. Whether you're heading to the office or a night out, these ankle boots complete your outfit.\n\nExperience style and comfort with these ankle boots.\n\nKey Features:\n- Faux leather construction for fashion and comfort\n- Versatile ankle boot design\n- Side zipper for easy wear\n- Stacked heel for a trendy look",
+        "brandName": "FashionFusion",
+        "price": "$ 49.99",
         "category": "women",
-        "imageSrc": "crystal_earrings.jpg",
-        "slug": "Crystal-Earrings-ad638232-7ce4-476e-aab6-8d7a84435aff",
-        "imageAlt": "Sparkling crystal earrings",
-        "rating": "4.7"
+        "imageSrc": "/images/women1.png",
+        "slug": "Womens-Classic-Ankle-Boots-f57b1c60-242f-4c1a-9f18-470d618c0835",
+        "imageAlt": "Women's classic ankle boots for style and comfort",
+        "rating": "4.6",
+        "keyFeatures": [
+            "Faux leather construction for fashion and comfort",
+            "Versatile ankle boot design",
+            "Side zipper for easy wear",
+            "Stacked heel for a trendy look"
+        ],
+        "productSummary": "Step out in style with these Women's Classic Ankle Boots from FashionFusion. Crafted from faux leather, these boots offer both fashion and comfort. They feature a versatile ankle boot design, a side zipper for easy wear, and a stacked heel for a trendy look. Whether you're heading to the office or a night out, these ankle boots complete your outfit with style and comfort."
     },
     {
-        "id": "77a57366-a5f1-4b33-950f-b1dbf21208f9",
-        "productName": "Satin Clutch Bag",
-        "productDescription": "Complete your formal look with this chic satin clutch bag from Fashion Elite. The clutch features a sleek and minimalist design with a satin finish that adds a touch of sophistication to your ensemble. It's the perfect accessory for weddings, parties, and formal events.",
-        "brandName": "Fashion Elite",
-        "price": "$49.99",
+        "id": "4f03edf2-7f08-4fb8-b24b-78c7f1f95c11",
+        "productName": "Women's Classic Sunglasses",
+        "productDescription": "Stay stylish and protect your eyes with these women's classic sunglasses. Crafted with precision, these sunglasses offer both fashion and UV protection. They feature a timeless square frame, tinted lenses, and slim arms with logo detailing. Whether you're lounging by the pool or strolling in the city, these classic sunglasses are a chic accessory.\n\nExperience style and UV protection with these sunglasses.\n\nKey Features:\n- Timeless square frame for a classic look\n- Tinted lenses for style and UV protection\n- Slim arms with logo detailing",
+        "brandName": "ElegantWear",
+        "price": "$ 34.99",
         "category": "women",
-        "imageSrc": "satin_clutch_bag.jpg",
-        "slug": "Satin-Clutch-Bag-77a57366-a5f1-4b33-950f-b1dbf21208f9",
-        "imageAlt": "Satin clutch bag with minimalist design",
-        "rating": "3.3"
+        "imageSrc": "/images/women2.png",
+        "slug": "Womens-Classic-Sunglasses-4f03edf2-7f08-4fb8-b24b-78c7f1f95c11",
+        "imageAlt": "Women's classic sunglasses for style and UV protection",
+        "rating": "4.5",
+        "keyFeatures": [
+            "Timeless square frame for a classic look",
+            "Tinted lenses for style and UV protection",
+            "Slim arms with logo detailing"
+        ],
+        "productSummary": "Stay stylish and protect your eyes with these Women's Classic Sunglasses from ElegantWear. Crafted with precision, these sunglasses offer both fashion and UV protection. They feature a timeless square frame, tinted lenses for style and UV protection, and slim arms with logo detailing. Whether you're lounging by the pool or strolling in the city, these classic sunglasses are a chic accessory that elevates your style while shielding your eyes from the sun."
     },
     {
-        "id": "2fa8d4e6-e927-4f00-818a-85fa26a14103",
-        "productName": "Strappy High Heels",
-        "productDescription": "Step out in style with these strappy high heels from Glamourous Footwear. These heels feature a strappy design that adds a trendy and fashionable touch to your outfit. The versatile nude shade makes them perfect for both formal and casual occasions, and the comfortable heel height ensures you can dance the night away.",
-        "brandName": "Glamourous Footwear",
-        "price": "$89.99",
+        "id": "5eabf142-0e19-4a35-8d9d-f93a16b7e6c8",
+        "productName": "Women's Casual Striped Sweater",
+        "productDescription": "Stay cozy and stylish with this women's casual striped sweater. Crafted from soft and comfortable fabric, this sweater offers both fashion and warmth. It features a classic striped pattern, a crew neckline, and ribbed cuffs and hem. Whether you're lounging at home or going for a casual outing, this striped sweater is a versatile choice.\n\nExperience comfort and style with this striped sweater.\n\nKey Features:\n- Soft and comfortable fabric for warmth\n- Classic striped pattern for a casual look\n- Crew neckline for a classic touch\n- Ribbed cuffs and hem",
+        "brandName": "CasualComfort",
+        "price": "$ 36.99",
         "category": "women",
-        "imageSrc": "strappy_high_heels.jpg",
-        "slug": "Strappy-High-Heels-2fa8d4e6-e927-4f00-818a-85fa26a14103",
-        "imageAlt": "Strappy nude high heels",
-        "rating": "1.4"
+        "imageSrc": "/images/women3.png",
+        "slug": "Womens-Casual-Striped-Sweater-5eabf142-0e19-4a35-8d9d-f93a16b7e6c8",
+        "imageAlt": "Women's casual striped sweater for comfort and style",
+        "rating": "4.5",
+        "keyFeatures": [
+            "Soft and comfortable fabric for warmth",
+            "Classic striped pattern for a casual look",
+            "Crew neckline for a classic touch",
+            "Ribbed cuffs and hem"
+        ],
+        "productSummary": "Stay cozy and stylish with this Women's Casual Striped Sweater from CasualComfort. Crafted from soft and comfortable fabric, this sweater offers both fashion and warmth. It features a classic striped pattern, a crew neckline, and ribbed cuffs and hem for a casual look. Whether you're lounging at home or going for a casual outing, this striped sweater is a versatile choice that combines comfort and style effortlessly."
     },
     {
-        "id": "c46a2634-42ac-4067-9059-2da83a20407b",
-        "productName": "Gold Bracelet",
-        "productDescription": "Add a touch of luxury to your wrist with this exquisite gold bracelet from Jewelry Emporium. The bracelet features a timeless design with intricate detailing and a secure clasp. Whether you're attending a formal event or looking to elevate your everyday style, this gold bracelet is a versatile accessory that adds a touch of elegance to any ensemble.",
-        "brandName": "Jewelry Emporium",
-        "price": "$179.99",
+        "id": "b4e3b1ae-9e1b-4f4d-8c82-7d0d3b2fc1ef",
+        "productName": "Women's Casual Denim Shorts",
+        "productDescription": "Upgrade your summer wardrobe with these women's casual denim shorts. Made from high-quality denim fabric, these shorts offer both style and comfort. They feature a classic denim shorts design, a mid-rise waist, and frayed hem details. Whether you're heading to the beach or enjoying a sunny day, these denim shorts are a versatile choice.\n\nExperience style and comfort with these denim shorts.\n\nKey Features:\n- High-quality denim fabric for durability\n- Classic denim shorts design for a timeless look\n- Mid-rise waist for a comfortable fit\n- Frayed hem details for added style",
+        "brandName": "DenimDaze",
+        "price": "$ 29.99",
         "category": "women",
-        "imageSrc": "gold_bracelet.jpg",
-        "slug": "Gold-Bracelet-c46a2634-42ac-4067-9059-2da83a20407b",
-        "imageAlt": "Elegant gold bracelet",
-        "rating": "3.0"
+        "imageSrc": "/images/women4.png",
+        "slug": "Womens-Casual-Denim-Shorts-b4e3b1ae-9e1b-4f4d-8c82-7d0d3b2fc1ef",
+        "imageAlt": "Women's casual denim shorts for style and comfort",
+        "rating": "4.6",
+        "keyFeatures": [
+            "High-quality denim fabric for durability",
+            "Classic denim shorts design for a timeless look",
+            "Mid-rise waist for a comfortable fit",
+            "Frayed hem details for added style"
+        ],
+        "productSummary": "Upgrade your summer wardrobe with these Women's Casual Denim Shorts from DenimDaze. Made from high-quality denim fabric, these shorts offer both style and comfort. They feature a classic denim shorts design with a mid-rise waist and frayed hem details for added style. Whether you're heading to the beach or enjoying a sunny day, these denim shorts are a versatile choice that brings both style and comfort to your summer outfits."
+    },
+]
+
+export const fourCasualProducts = [
+    {
+        "id": "94f1c8e8-4ed7-4a8a-a936-29a5aaf6f4f3",
+        "productName": "Men's Casual Slim-Fit Jeans",
+        "productDescription": "Achieve a laid-back look with these men's casual slim-fit jeans. Crafted from high-quality denim, these jeans offer both style and comfort. They feature a modern slim-fit design, a classic five-pocket layout, and a zip fly with a button closure. Whether you're hanging out with friends or running errands, these jeans are a versatile choice.\n\nExperience style and comfort with these slim-fit jeans.\n\nKey Features:\n- High-quality denim for style and comfort\n- Modern slim-fit design\n- Classic five-pocket layout\n- Zip fly with button closure",
+        "brandName": "DenimStyle",
+        "price": "$ 54.99",
+        "category": "casual",
+        "imageSrc": "mens_slim_fit_jeans.jpg",
+        "slug": "Mens-Casual-Slim-Fit-Jeans-94f1c8e8-4ed7-4a8a-a936-29a5aaf6f4f3",
+        "imageAlt": "Men's casual slim-fit jeans for a laid-back look",
+        "rating": "4.8",
+        "keyFeatures": [
+            "High-quality denim for style and comfort",
+            "Modern slim-fit design",
+            "Classic five-pocket layout",
+            "Zip fly with button closure"
+        ],
+        "productSummary": "Achieve a laid-back look with these Men's Casual Slim-Fit Jeans from DenimStyle. Crafted from high-quality denim, these jeans offer both style and comfort. They feature a modern slim-fit design, a classic five-pocket layout, and a zip fly with a button closure. Whether you're hanging out with friends or running errands, these jeans are a versatile choice that combines style and comfort effortlessly."
+    },
+    {
+        "id": "be6f913d-8965-4ae9-985e-56307f99cc7d",
+        "productName": "Women's Casual Striped T-Shirt",
+        "productDescription": "Add a touch of casual style to your wardrobe with this women's casual striped t-shirt. Made from soft and breathable cotton, this t-shirt offers both comfort and fashion. It features a classic striped pattern, a round neckline, and short sleeves. Whether you're pairing it with jeans or shorts, this t-shirt is a versatile choice.\n\nExperience comfort and style with this striped t-shirt.\n\nKey Features:\n- Soft and breathable cotton for comfort\n- Classic striped pattern for a casual look\n- Round neckline and short sleeves",
+        "brandName": "CasualChic",
+        "price": "$ 19.99",
+        "category": "casual",
+        "imageSrc": "womens_striped_tshirt.jpg",
+        "slug": "Womens-Casual-Striped-T-Shirt-be6f913d-8965-4ae9-985e-56307f99cc7d",
+        "imageAlt": "Women's casual striped t-shirt for a casual look",
+        "rating": "4.5",
+        "keyFeatures": [
+            "Soft and breathable cotton for comfort",
+            "Classic striped pattern for a casual look",
+            "Round neckline and short sleeves"
+        ],
+        "productSummary": "Add a touch of casual style to your wardrobe with this Women's Casual Striped T-Shirt from CasualChic. Made from soft and breathable cotton, this t-shirt offers both comfort and fashion. It features a classic striped pattern, a round neckline, and short sleeves. Whether you're pairing it with jeans or shorts, this t-shirt is a versatile choice that brings comfort and casual style to your outfits."
+    },
+    {
+        "id": "d1bce7ed-3927-485a-bbe5-110a11c68c3f",
+        "productName": "Men's Casual Canvas Sneakers",
+        "productDescription": "Step out in style with these men's casual canvas sneakers. Crafted with care, these sneakers offer both fashion and comfort. They feature a classic canvas upper, a lace-up closure, and a cushioned insole. Whether you're going for a walk or meeting friends, these sneakers are a versatile choice.\n\nExperience style and comfort with these canvas sneakers.\n\nKey Features:\n- Classic canvas upper for a fashionable look\n- Lace-up closure for a secure fit\n- Cushioned insole for comfort",
+        "brandName": "UrbanStride",
+        "price": "$ 39.99",
+        "category": "casual",
+        "imageSrc": "mens_canvas_sneakers.jpg",
+        "slug": "Mens-Casual-Canvas-Sneakers-d1bce7ed-3927-485a-bbe5-110a11c68c3f",
+        "imageAlt": "Men's casual canvas sneakers for a stylish look",
+        "rating": "4.6",
+        "keyFeatures": [
+            "Classic canvas upper for a fashionable look",
+            "Lace-up closure for a secure fit",
+            "Cushioned insole for comfort"
+        ],
+        "productSummary": "Step out in style with these Men's Casual Canvas Sneakers from UrbanStride. Crafted with care, these sneakers offer both fashion and comfort. They feature a classic canvas upper, a lace-up closure for a secure fit, and a cushioned insole for comfort. Whether you're going for a walk or meeting friends, these sneakers are a versatile choice that combines style and comfort effortlessly."
+    },
+    {
+        "id": "7f3d8a97-1912-4b80-8c09-5b3c187c5e3c",
+        "productName": "Women's Casual Denim Jacket",
+        "productDescription": "Upgrade your casual look with this women's casual denim jacket. Made from durable denim fabric, this jacket offers both style and versatility. It features a classic denim jacket design with button closures, chest pockets, and a stylish wash. Whether you're layering it over a dress or pairing it with jeans, this denim jacket is a fashionable choice.\n\nExperience style and versatility with this denim jacket.\n\nKey Features:\n- Durable denim fabric for a trendy look\n- Classic denim jacket design with button closures\n- Chest pockets for added style\n- Stylish wash for a fashionable touch",
+        "brandName": "DenimDaze",
+        "price": "$ 59.99",
+        "category": "casual",
+        "imageSrc": "womens_denim_jacket.jpg",
+        "slug": "Womens-Casual-Denim-Jacket-7f3d8a97-1912-4b80-8c09-5b3c187c5e3c",
+        "imageAlt": "Women's casual denim jacket for a trendy look",
+        "rating": "4.7",
+        "keyFeatures": [
+            "Durable denim fabric for a trendy look",
+            "Classic denim jacket design with button closures",
+            "Chest pockets for added style",
+            "Stylish wash for a fashionable touch"
+        ],
+        "productSummary": "Upgrade your casual look with this Women's Casual Denim Jacket from DenimDaze. Made from durable denim fabric, this jacket offers both style and versatility. It features a classic denim jacket design with button closures, chest pockets, and a stylish wash for a fashionable touch. Whether you're layering it over a dress or pairing it with jeans, this denim jacket is a trendy choice that adds style to your casual outfits."
     },
 ]
 
 
 const formalMen = [
     {
-        "id": "8e9dda84-746e-4589-a7d2-f4f931a43566",
-        "productName": "Black Patent Leather Loafers",
-        "productDescription": "Complete your formal look with these shiny black patent leather loafers from Luxury Steps. These loafers are crafted with precision and are designed to add a touch of luxury to your ensemble. The patent leather finish and sleek design make them ideal for black-tie events, weddings, and formal occasions.",
-        "brandName": "Luxury Steps",
-        "price": "$179.99",
+        "id": "6e608e17-733d-41e2-9a4a-d2303f17c96d",
+        "productName": "Men's Classic Leather Gloves",
+        "productDescription": "Stay warm and stylish with these men's classic leather gloves. Crafted from genuine leather, these gloves offer both fashion and functionality. They feature a timeless design with a warm lining and a buttoned wrist closure. Whether you're braving the cold or adding a finishing touch to your outfit, these leather gloves are a versatile choice.\n\nExperience warmth and style with these leather gloves.\n\nKey Features:\n- Genuine leather construction for fashion and functionality\n- Timeless design with a warm lining\n- Buttoned wrist closure for a secure fit",
+        "brandName": "ClassicStyle",
+        "price": "$ 44.99",
         "category": "men",
-        "imageSrc": "black_patent_leather_loafers.jpg",
-        "slug": "Black-Patent-Leather-Loafers-8e9dda84-746e-4589-a7d2-f4f931a43566",
-        "imageAlt": "Black patent leather loafers",
-        "rating": "4.7"
+        "imageSrc": "mens_leather_gloves.jpg",
+        "slug": "Mens-Classic-Leather-Gloves-6e608e17-733d-41e2-9a4a-d2303f17c96d",
+        "imageAlt": "Men's classic leather gloves for warmth and style",
+        "rating": "4.6",
+        "keyFeatures": [
+            "Genuine leather construction for fashion and functionality",
+            "Timeless design with a warm lining",
+            "Buttoned wrist closure for a secure fit"
+        ],
+        "productSummary": "Stay warm and stylish with these Men's Classic Leather Gloves from ClassicStyle. Crafted from genuine leather, these gloves offer both fashion and functionality. They feature a timeless design with a warm lining to keep your hands cozy, along with a buttoned wrist closure for a secure fit. Whether you're braving the cold or adding a finishing touch to your outfit, these leather gloves are a versatile choice that combines warmth and style effortlessly."
     },
     {
-        "id": "0f061b4a-9e45-4ec7-8fcd-fb1f0c7c67dc",
-        "productName": "Silk Pocket Square",
-        "productDescription": "Add a touch of refinement to your formal attire with this luxurious silk pocket square in various colors from Gentleman's Accents. Made from high-quality silk, this pocket square is a versatile accessory that can complement a wide range of suits and blazers. Whether you're attending a wedding or a business meeting, this pocket square will enhance your look with a dash of sophistication.",
-        "brandName": "Gentleman's Accents",
-        "price": "$29.99",
+        "id": "ad71f742-49d7-4c82-9a13-9909f9a2f15f",
+        "productName": "Men's Classic White T-Shirt",
+        "productDescription": "Elevate your everyday style with this classic white t-shirt for men. Crafted from soft and breathable cotton, this t-shirt offers superior comfort. It features a timeless crew neckline and a regular fit that suits all body types. Whether you're pairing it with jeans or shorts, this versatile white t-shirt adds a touch of sophistication to your casual look.\n\nExperience comfort and style with this essential wardrobe staple.\n\nKey Features:\n- Soft and breathable cotton fabric\n- Timeless crew neckline\n- Regular fit for all body types",
+        "brandName": "CasualComfort",
+        "price": "$ 19.99",
         "category": "men",
-        "imageSrc": "silk_pocket_square.jpg",
-        "slug": "Silk-Pocket-Square-0f061b4a-9e45-4ec7-8fcd-fb1f0c7c67dc",
-        "imageAlt": "Silk pocket square in various colors",
-        "rating": "3.3"
+        "imageSrc": "mens_white_tshirt.jpg",
+        "slug": "Mens-Classic-White-T-Shirt-ad71f742-49d7-4c82-9a13-9909f9a2f15f",
+        "imageAlt": "Men's classic white t-shirt for versatile and comfortable wear",
+        "rating": "4.5",
+        "keyFeatures": [
+            "Soft and breathable cotton fabric",
+            "Timeless crew neckline",
+            "Regular fit for all body types"
+        ],
+        "productSummary": "Upgrade your wardrobe with this Men's Classic White T-Shirt from CasualComfort. Made from soft and breathable cotton, this t-shirt offers unmatched comfort. It features a timeless crew neckline and a regular fit, making it suitable for all body types. Whether you're dressing up or keeping it casual, this versatile white t-shirt adds a touch of sophistication to your look. With its quality fabric and classic design, it's a must-have staple for any fashion-conscious man."
     },
     {
-        "id": "4ccc5f3a-173d-43a3-9231-6f8d3620d485",
-        "productName": "Classic Black Suit",
-        "productDescription": "A timeless black suit for formal occasions. This impeccably tailored suit from Bespoke Tailors is the epitome of sophistication and style. Crafted from high-quality wool, it features a classic single-breasted design with peak lapels, providing a sleek and flattering silhouette. The suit jacket is fully lined and has a single back vent for ease of movement. The accompanying flat-front trousers complete the look, ensuring you exude confidence and charm.\n\nWhether you're attending a black-tie event or a corporate gathering, this suit will make you stand out in the crowd. Pair it with a crisp white dress shirt and a silk tie for a sharp and dashing appearance. Invest in this classic black suit, and you'll have a wardrobe staple that will never go out of style.",
-        "brandName": "Bespoke Tailors",
-        "price": "$499.99",
+        "id": "2d3ff3a8-0cf4-4821-ba84-fa1636ccf1d2",
+        "productName": "Men's Classic Denim Jeans",
+        "productDescription": "Upgrade your denim collection with these classic men's jeans. Crafted from premium denim fabric, these jeans offer durability and style. They feature a classic straight-leg design with a mid-rise waist. The versatile dark wash complements any outfit, making them a wardrobe essential.\n\nExperience the perfect blend of durability and style with these denim jeans.\n\nKey Features:\n- Premium denim fabric for durability and style\n- Classic straight-leg design with mid-rise waist\n- Versatile dark wash for pairing with any outfit",
+        "brandName": "DenimCraft",
+        "price": "$ 59.99",
         "category": "men",
-        "imageSrc": "/images/men1.png",
-        "slug": "Classic-Black-Suit-4ccc5f3a-173d-43a3-9231-6f8d3620d485",
-        "imageAlt": "Elegant black formal suit",
-        "rating": "3.2"
+        "imageSrc": "mens_denim_jeans.jpg",
+        "slug": "Mens-Classic-Denim-Jeans-2d3ff3a8-0cf4-4821-ba84-fa1636ccf1d2",
+        "imageAlt": "Men's denim jeans for durable and stylish wear",
+        "rating": "4.7",
+        "keyFeatures": [
+            "Premium denim fabric for durability and style",
+            "Classic straight-leg design with mid-rise waist",
+            "Versatile dark wash for pairing with any outfit"
+        ],
+        "productSummary": "Elevate your denim game with these Men's Classic Denim Jeans from DenimCraft. Crafted from premium denim fabric, these jeans offer the perfect blend of durability and style. They feature a classic straight-leg design with a mid-rise waist for a comfortable fit. The versatile dark wash allows you to pair them with any outfit, making them a versatile addition to your wardrobe."
     },
     {
-        "id": "f523c445-ed40-4ec9-a05a-2fc3784c2824",
-        "productName": "White Dress Shirt",
-        "productDescription": "Elevate your formal attire with this crisp and elegant white dress shirt from Fashion Elite. Made from premium cotton, this shirt offers both comfort and style. Its classic fit and spread collar provide a polished look that's perfect for business meetings, weddings, or any formal occasion. The shirt's French cuffs allow you to showcase your favorite cufflinks, adding a personal touch to your ensemble.",
-        "brandName": "Fashion Elite",
-        "price": "$79.99",
+        "id": "9f139e83-0347-4dbd-94e7-3f6f1d6f1c64",
+        "productName": "Men's Casual Sneakers",
+        "productDescription": "Step up your casual shoe game with these men's sneakers. Crafted for both style and comfort, these sneakers feature a synthetic leather upper and a cushioned insole. The versatile design pairs perfectly with jeans or shorts, making them ideal for everyday wear.\n\nExperience style and comfort with these casual sneakers.\n\nKey Features:\n- Synthetic leather upper for style and durability\n- Cushioned insole for all-day comfort\n- Versatile design for pairing with jeans or shorts",
+        "brandName": "FootFlex",
+        "price": "$ 29.99",
         "category": "men",
-        "imageSrc": "white_dress_shirt.jpg",
-        "slug": "White-Dress-Shirt-f523c445-ed40-4ec9-a05a-2fc3784c2824",
-        "imageAlt": "White dress shirt with French cuffs",
-        "rating": "1.5"
+        "imageSrc": "mens_casual_sneakers.jpg",
+        "slug": "Mens-Casual-Sneakers-9f139e83-0347-4dbd-94e7-3f6f1d6f1c64",
+        "imageAlt": "Men's casual sneakers for stylish and comfortable everyday wear",
+        "rating": "4.4",
+        "keyFeatures": [
+            "Synthetic leather upper for style and durability",
+            "Cushioned insole for all-day comfort",
+            "Versatile design for pairing with jeans or shorts"
+        ],
+        "productSummary": "Elevate your casual style with these Men's Casual Sneakers from FootFlex. Crafted with a synthetic leather upper for style and durability, these sneakers also feature a cushioned insole for all-day comfort. Their versatile design makes them a perfect match for jeans or shorts, making them an ideal choice for everyday wear."
     },
     {
-        "id": "aa8db75d-152b-436d-b123-b263654f857c",
-        "productName": "Navy Blue Tie",
-        "productDescription": "Complete your formal look with this exquisite silk tie in a rich navy blue color from Accessories Plus. The tie is handcrafted with precision, and its luxurious texture adds a touch of elegance to any outfit. Whether you're attending a wedding or a corporate event, this tie will make a statement.",
-        "brandName": "Accessories Plus",
-        "price": "$39.99",
+        "id": "f482daac-50a3-4c07-9df2-d6f1f5a7b6a3",
+        "productName": "Men's Casual Chinos",
+        "productDescription": "Upgrade your casual wardrobe with these versatile men's chinos. Crafted from premium cotton twill, these chinos offer both comfort and style. They feature a classic straight-leg fit and a mid-rise waist. Whether you're dressing up for a dinner date or keeping it casual, these chinos are a versatile addition to your collection.\n\nExperience comfort and style with these classic chinos.\n\nKey Features:\n- Premium cotton twill for comfort and style\n- Classic straight-leg fit with mid-rise waist\n- Versatile design for dressing up or keeping it casual",
+        "brandName": "CasualCraft",
+        "price": "$ 44.99",
         "category": "men",
-        "imageSrc": "navy_blue_tie.jpg",
-        "slug": "Navy-Blue-Tie-aa8db75d-152b-436d-b123-b263654f857c",
-        "imageAlt": "Navy blue silk tie",
-        "rating": "2.5"
+        "imageSrc": "mens_casual_chinos.jpg",
+        "slug": "Mens-Casual-Chinos-f482daac-50a3-4c07-9df2-d6f1f5a7b6a3",
+        "imageAlt": "Men's casual chinos for versatile and comfortable wear",
+        "rating": "4.6",
+        "keyFeatures": [
+            "Premium cotton twill for comfort and style",
+            "Classic straight-leg fit with mid-rise waist",
+            "Versatile design for dressing up or keeping it casual"
+        ],
+        "productSummary": "Elevate your casual wardrobe with these Men's Casual Chinos from CasualCraft. Made from premium cotton twill, these chinos offer both comfort and style. They feature a classic straight-leg fit with a mid-rise waist, making them suitable for dressing up or keeping it casual. Whether you're heading to a dinner date or a relaxed weekend outing, these versatile chinos have got you covered."
     },
     {
-        "id": "56851d87-27c3-40d2-9464-d1fa0c8336be",
-        "productName": "Charcoal Gray Trousers",
-        "productDescription": "Achieve a polished and sophisticated look with these stylish charcoal gray trousers from Modern Classics. These trousers are tailored to perfection, offering a slim fit that complements your physique. They are made from high-quality fabric that is both comfortable and durable. Whether you're dressing up for the office or a formal event, these trousers will make you look sharp and confident.",
-        "brandName": "Modern Classics",
-        "price": "$129.99",
+        "id": "9deebbe6-0470-4a1b-9dbd-4e1531b6c3f2",
+        "productName": "Men's Classic Leather Belt",
+        "productDescription": "Complete your outfit with this timeless men's leather belt. Crafted from genuine leather, this belt offers both durability and style. It features a classic buckle design and a versatile width that pairs well with jeans or dress pants. Whether you're dressing up for a formal occasion or adding a finishing touch to your everyday look, this leather belt is a must-have accessory.\n\nExperience timeless style with this classic leather belt.\n\nKey Features:\n- Genuine leather construction for durability and style\n- Classic buckle design\n- Versatile width for pairing with jeans or dress pants",
+        "brandName": "ClassicStyle",
+        "price": "$ 29.99",
         "category": "men",
-        "imageSrc": "charcoal_gray_trousers.jpg",
-        "slug": "Charcoal-Gray-Trousers-56851d87-27c3-40d2-9464-d1fa0c8336be",
-        "imageAlt": "Charcoal gray slim-fit trousers",
-        "rating": "1.3"
+        "imageSrc": "mens_leather_belt.jpg",
+        "slug": "Mens-Classic-Leather-Belt-9deebbe6-0470-4a1b-9dbd-4e1531b6c3f2",
+        "imageAlt": "Men's classic leather belt for timeless style",
+        "rating": "4.6",
+        "keyFeatures": [
+            "Genuine leather construction for durability and style",
+            "Classic buckle design",
+            "Versatile width for pairing with jeans or dress pants"
+        ],
+        "productSummary": "Complete your outfit with timeless style using this Men's Classic Leather Belt from ClassicStyle. Crafted from genuine leather, this belt offers both durability and style. It features a classic buckle design and a versatile width, making it suitable for pairing with jeans or dress pants. Whether you're dressing up for a formal occasion or adding a finishing touch to your everyday look, this leather belt is a must-have accessory."
     },
 ]
 
 const formalWomen = [
     {
-        "id": "8765ee89-508f-4bc0-82d7-4aa1bf5d7f7b",
-        "productName": "Satin Evening Clutch",
-        "productDescription": "Carry your essentials in style with this satin evening clutch from Chic Couture. The clutch features a sleek and sophisticated design with a satin finish that adds a touch of luxury to your evening ensemble. It's the perfect accessory for formal events, weddings, and special occasions.",
-        "brandName": "Chic Couture",
-        "price": "$59.99",
+        "id": "5824c85a-2cf4-40d7-92d6-4ab8745eb2c8",
+        "productName": "Women's Elegant Trench Coat",
+        "productDescription": "Stay stylish in any weather with this women's trench coat. Crafted from high-quality materials, this coat offers both elegance and functionality. It features a classic double-breasted design, a waist belt for a flattering fit, and a detachable hood. Whether you're dressing up for a rainy day or adding a layer of sophistication to your outfit, this trench coat is a versatile choice.\n\nExperience elegance and functionality with this trench coat.\n\nKey Features:\n- High-quality materials for durability and style\n- Classic double-breasted design\n- Waist belt for a flattering fit\n- Detachable hood for versatility",
+        "brandName": "ElegantWear",
+        "price": "$ 79.99",
         "category": "women",
-        "imageSrc": "satin_evening_clutch.jpg",
-        "slug": "Satin-Evening-Clutch-8765ee89-508f-4bc0-82d7-4aa1bf5d7f7b",
-        "imageAlt": "Satin evening clutch with elegant design",
-        "rating": "3.9"
+        "imageSrc": "womens_trench_coat.jpg",
+        "slug": "Womens-Elegant-Trench-Coat-5824c85a-2cf4-40d7-92d6-4ab8745eb2c8",
+        "imageAlt": "Women's elegant trench coat for style and functionality",
+        "rating": "4.7",
+        "keyFeatures": [
+            "High-quality materials for durability and style",
+            "Classic double-breasted design",
+            "Waist belt for a flattering fit",
+            "Detachable hood for versatility"
+        ],
+        "productSummary": "Stay stylish in any weather with this Women's Elegant Trench Coat from ElegantWear. Crafted from high-quality materials, this coat offers both elegance and functionality. It features a classic double-breasted design, a waist belt for a flattering fit, and a detachable hood for versatility. Whether you're dressing up for a rainy day or adding a layer of sophistication to your outfit, this trench coat is a versatile choice that keeps you looking chic and comfortable."
     },
     {
-        "id": "de9a5a67-61e3-451c-bc00-be85a4bb2713",
-        "productName": "Diamond Pendant Necklace",
-        "productDescription": "Elevate your jewelry collection with this exquisite diamond pendant necklace from Brilliance Diamonds. The necklace features a dazzling diamond pendant set in a classic design that adds a touch of glamour to any outfit. Whether you're attending a black-tie event or a special occasion, this necklace will enhance your style and make you shine.",
-        "brandName": "Brilliance Diamonds",
-        "price": "$499.99",
+        "id": "c2f2d876-83e2-4077-9dd1-ea10d26c7884",
+        "productName": "Women's Leather Crossbody Bag",
+        "productDescription": "Accessorize in style with this women's leather crossbody bag. Crafted from genuine leather, this bag offers both durability and fashion. It features a compact yet practical design with multiple pockets, an adjustable strap, and a stylish buckle closure. Whether you're running errands or going out for a night on the town, this crossbody bag complements your outfit.\n\nExperience style and functionality with this leather crossbody bag.\n\nKey Features:\n- Genuine leather construction for durability and fashion\n- Compact yet practical design\n- Multiple pockets for organization\n- Adjustable strap for convenience\n- Stylish buckle closure",
+        "brandName": "FashionFusion",
+        "price": "$ 59.99",
         "category": "women",
-        "imageSrc": "diamond_pendant_necklace.jpg",
-        "slug": "Diamond-Pendant-Necklace-de9a5a67-61e3-451c-bc00-be85a4bb2713",
-        "imageAlt": "Diamond pendant necklace with sparkling diamond",
-        "rating": "3.9"
+        "imageSrc": "womens_crossbody_bag.jpg",
+        "slug": "Womens-Leather-Crossbody-Bag-c2f2d876-83e2-4077-9dd1-ea10d26c7884",
+        "imageAlt": "Women's leather crossbody bag for style and functionality",
+        "rating": "4.6",
+        "keyFeatures": [
+            "Genuine leather construction for durability and fashion",
+            "Compact yet practical design",
+            "Multiple pockets for organization",
+            "Adjustable strap for convenience",
+            "Stylish buckle closure"
+        ],
+        "productSummary": "Accessorize in style with this Women's Leather Crossbody Bag from FashionFusion. Crafted from genuine leather, this bag offers both durability and fashion. It features a compact yet practical design with multiple pockets, an adjustable strap, and a stylish buckle closure for added convenience. Whether you're running errands or going out for a night on the town, this crossbody bag complements your outfit and keeps your essentials organized."
     },
     {
-        "id": "4d8177df-fa5c-4988-bfc3-378156b09318",
-        "productName": "Elegant Evening Gown",
-        "productDescription": "Make a statement at your next formal event with this elegant evening gown from Chic Couture. The gown features a flowing silhouette with intricate lace and beadwork, creating a look of timeless beauty and sophistication. The plunging V-neckline and open back add a touch of allure to the ensemble, while the full-length skirt adds an element of grace and elegance.\n\nCrafted with meticulous attention to detail, this gown is designed to make you feel like a princess on your special night. Whether you're attending a gala, a wedding, or a formal dinner, this gown will ensure you're the center of attention.\n\nPair it with your favorite heels and minimalistic jewelry to complete the look. Make memories that will last a lifetime in this exquisite evening gown from Chic Couture.",
-        "brandName": "Chic Couture",
-        "price": "$799.99",
+        "id": "ab1d1302-2269-45a9-86c0-03e8d98e5f13",
+        "productName": "Women's Casual Striped T-Shirt",
+        "productDescription": "Add a touch of casual style to your wardrobe with this women's striped t-shirt. Crafted from soft and breathable cotton, this t-shirt offers comfort and fashion. It features a classic striped pattern, a round neckline, and a relaxed fit. Whether you're running errands or meeting friends for coffee, this striped t-shirt is a go-to choice for a laid-back look.\n\nExperience casual comfort with this striped t-shirt.\n\nKey Features:\n- Soft and breathable cotton for comfort\n- Classic striped pattern\n- Round neckline for a timeless look\n- Relaxed fit for a laid-back style",
+        "brandName": "CasualChic",
+        "price": "$ 24.99",
         "category": "women",
-        "imageSrc": "evening_gown.jpg",
-        "slug": "Elegant-Evening-Gown-4d8177df-fa5c-4988-bfc3-378156b09318",
-        "imageAlt": "Stunning evening gown",
-        "rating": "3.8"
+        "imageSrc": "womens_striped_tshirt.jpg",
+        "slug": "Womens-Casual-Striped-T-Shirt-ab1d1302-2269-45a9-86c0-03e8d98e5f13",
+        "imageAlt": "Women's casual striped t-shirt for comfortable and stylish wear",
+        "rating": "4.5",
+        "keyFeatures": [
+            "Soft and breathable cotton for comfort",
+            "Classic striped pattern",
+            "Round neckline for a timeless look",
+            "Relaxed fit for a laid-back style"
+        ],
+        "productSummary": "Add a touch of casual style to your wardrobe with this Women's Casual Striped T-Shirt from CasualChic. Made from soft and breathable cotton, this t-shirt offers both comfort and fashion. It features a classic striped pattern, a round neckline, and a relaxed fit for a laid-back style. Whether you're running errands or meeting friends for coffee, this striped t-shirt is your go-to choice for a comfortable and stylish look."
     },
     {
-        "id": "05e6dc24-2365-486d-8c8d-01a9f59811ea",
-        "productName": "Pearl Necklace",
-        "productDescription": "Enhance your elegance with this exquisite pearl necklace from Glamour Gems. The necklace features lustrous freshwater pearls carefully strung together to create a timeless and sophisticated piece of jewelry. Whether you're attending a formal event or looking to elevate your everyday style, this pearl necklace is a versatile choice that adds a touch of luxury to any outfit.",
-        "brandName": "Glamour Gems",
-        "price": "$249.99",
+        "id": "057fbb56-4b68-4dd4-b556-d591587e8f38",
+        "productName": "Women's Classic Trench Coat",
+        "productDescription": "Stay elegant and prepared for changing weather with this women's classic trench coat. Crafted from high-quality materials, this coat offers both style and functionality. It features a timeless double-breasted design, a waist belt for a flattering fit, and a detachable hood for versatility. Whether you're heading to the office or a weekend getaway, this trench coat keeps you looking chic and comfortable.\n\nExperience elegance and functionality with this trench coat.\n\nKey Features:\n- High-quality materials for style and durability\n- Timeless double-breasted design\n- Waist belt for a flattering fit\n- Detachable hood for versatility",
+        "brandName": "ElegantWear",
+        "price": "$ 79.99",
         "category": "women",
-        "imageSrc": "pearl_necklace.jpg",
-        "slug": "Pearl-Necklace-05e6dc24-2365-486d-8c8d-01a9f59811ea",
-        "imageAlt": "Elegant pearl necklace",
-        "rating": "4.7"
+        "imageSrc": "womens_trench_coat.jpg",
+        "slug": "Womens-Classic-Trench-Coat-057fbb56-4b68-4dd4-b556-d591587e8f38",
+        "imageAlt": "Women's classic trench coat for style and functionality",
+        "rating": "4.7",
+        "keyFeatures": [
+            "High-quality materials for style and durability",
+            "Timeless double-breasted design",
+            "Waist belt for a flattering fit",
+            "Detachable hood for versatility"
+        ],
+        "productSummary": "Stay elegant and prepared for changing weather with this Women's Classic Trench Coat from ElegantWear. Crafted from high-quality materials, this coat offers both style and functionality. It features a timeless double-breasted design, a waist belt for a flattering fit, and a detachable hood for versatility. Whether you're heading to the office or a weekend getaway, this trench coat keeps you looking chic and comfortable in any weather."
     },
     {
-        "id": "dfdcc7a8-9832-482c-acc0-6e0e162db554",
-        "productName": "Black Leather Pumps",
-        "productDescription": "Step into elegance with these classic black leather pumps from Luxury Steps. These pumps are designed for both style and comfort, featuring a timeless design with a pointed toe and stiletto heel. Crafted from high-quality leather, they are perfect for formal occasions and will complement a variety of outfits, from dresses to tailored suits.",
-        "brandName": "Luxury Steps",
-        "price": "$189.99",
+        "id": "aeb25a84-1d6e-4c2c-95a9-fa8d5a94fba7",
+        "productName": "Women's Classic Denim Jacket",
+        "productDescription": "Add a timeless layer to your outfit with this women's classic denim jacket. Crafted from high-quality denim, this jacket offers both style and versatility. It features a classic button-up design, a flattering silhouette, and functional chest pockets. Whether you're dressing up a casual look or adding a finishing touch to your evening ensemble, this denim jacket is a must-have.\n\nExperience style and versatility with this denim jacket.\n\nKey Features:\n- High-quality denim for style and durability\n- Classic button-up design\n- Flattering silhouette\n- Functional chest pockets",
+        "brandName": "DenimCraft",
+        "price": "$ 54.99",
         "category": "women",
-        "imageSrc": "black_leather_pumps.jpg",
-        "slug": "Black-Leather-Pumps-dfdcc7a8-9832-482c-acc0-6e0e162db554",
-        "imageAlt": "Black leather pumps with stiletto heel",
-        "rating": "3.5"
+        "imageSrc": "womens_denim_jacket.jpg",
+        "slug": "Womens-Classic-Denim-Jacket-aeb25a84-1d6e-4c2c-95a9-fa8d5a94fba7",
+        "imageAlt": "Women's classic denim jacket for style and versatility",
+        "rating": "4.7",
+        "keyFeatures": [
+            "High-quality denim for style and durability",
+            "Classic button-up design",
+            "Flattering silhouette",
+            "Functional chest pockets"
+        ],
+        "productSummary": "Add a timeless layer to your outfit with this Women's Classic Denim Jacket from DenimCraft. Crafted from high-quality denim, this jacket offers both style and versatility. It features a classic button-up design, a flattering silhouette, and functional chest pockets. Whether you're dressing up a casual look or adding a finishing touch to your evening ensemble, this denim jacket is a must-have that enhances your style."
     },
     {
-        "id": "5cb8541a-8723-450e-8076-f3558f8611a7",
-        "productName": "Lace Midi Dress",
-        "productDescription": "Embrace timeless elegance with this lace midi dress from Elegant Styles. The dress features intricate lace detailing that adds a touch of romance and sophistication to your look. The midi length is perfect for formal events, and the flattering fit and flare silhouette ensure you'll turn heads wherever you go.",
-        "brandName": "Elegant Styles",
-        "price": "$159.99",
+        "id": "dd622e49-0b13-4d9c-a9f3-4e2c9a9d18eb",
+        "productName": "Women's Classic Ballet Flats",
+        "productDescription": "Complete your look with these women's classic ballet flats. Crafted from faux leather, these flats offer both style and comfort. They feature a timeless ballet flat design, a cushioned insole, and a flexible sole for ease of movement. Whether you're dressing up for a special occasion or adding elegance to your everyday outfit, these ballet flats are a versatile choice.\n\nExperience style and comfort with these ballet flats.\n\nKey Features:\n- Faux leather construction for style and comfort\n- Timeless ballet flat design\n- Cushioned insole for all-day comfort\n- Flexible sole for ease of movement",
+        "brandName": "ElegantSteps",
+        "price": "$ 39.99",
         "category": "women",
-        "imageSrc": "lace_midi_dress.jpg",
-        "slug": "Lace-Midi-Dress-5cb8541a-8723-450e-8076-f3558f8611a7",
-        "imageAlt": "Lace midi dress with fit and flare silhouette",
-        "rating": "1.9"
-    }
+        "imageSrc": "womens_ballet_flats.jpg",
+        "slug": "Womens-Classic-Ballet-Flats-dd622e49-0b13-4d9c-a9f3-4e2c9a9d18eb",
+        "imageAlt": "Women's classic ballet flats for style and comfort",
+        "rating": "4.6",
+        "keyFeatures": [
+            "Faux leather construction for style and comfort",
+            "Timeless ballet flat design",
+            "Cushioned insole for all-day comfort",
+            "Flexible sole for ease of movement"
+        ],
+        "productSummary": "Complete your look with these Women's Classic Ballet Flats from ElegantSteps. Crafted from faux leather, these flats offer both style and comfort. They feature a timeless ballet flat design, a cushioned insole for all-day comfort, and a flexible sole for ease of movement. Whether you're dressing up for a special occasion or adding elegance to your everyday outfit, these ballet flats are a versatile choice that combines style and comfort effortlessly."
+    },
 ]
 
 const casualWear = [
     {
-        "id": "f0ceaa4e-7b8d-4463-ada3-11d99e3f5135",
-        "productName": "Denim Jeans",
-        "productDescription": "Upgrade your casual wardrobe with these comfortable and stylish denim jeans from Everyday Denim. Made from high-quality denim fabric, these jeans offer a perfect blend of comfort and durability. The classic straight-leg fit provides versatility, making them suitable for various occasions.\n\nWhether you're running errands, meeting friends, or going on a casual date, these denim jeans will keep you looking effortlessly cool. Pair them with a graphic tee and sneakers for a laid-back look or dress them up with a button-down shirt and leather boots for a more refined style.\n\nEveryday Denim takes pride in crafting timeless pieces that stand the test of time, and these jeans are no exception. Add them to your collection and enjoy a go-to pair of jeans that you'll love to wear.",
-        "brandName": "Everyday Denim",
-        "price": "$59.99",
+        "id": "125d6ae1-12f0-4a9a-9297-1bf2ed24ee3b",
+        "productName": "Men's Casual Striped Polo Shirt",
+        "productDescription": "Stay comfortable and stylish with this men's casual striped polo shirt. Crafted from soft and breathable fabric, this polo shirt offers both fashion and comfort. It features a classic striped pattern, a ribbed collar, and a button placket. Whether you're heading to a casual gathering or running errands, this polo shirt is a versatile choice.\n\nExperience comfort and style with this striped polo shirt.\n\nKey Features:\n- Soft and breathable fabric for comfort\n- Classic striped pattern for a casual look\n- Ribbed collar and button placket",
+        "brandName": "CasualWear",
+        "price": "$ 29.99",
         "category": "casual",
-        "imageSrc": "denim_jeans.jpg",
-        "slug": "Denim-Jeans-f0ceaa4e-7b8d-4463-ada3-11d99e3f5135",
-        "imageAlt": "Stylish denim jeans",
-        "rating": "2.4"
+        "imageSrc": "mens_striped_polo_shirt.jpg",
+        "slug": "Mens-Casual-Striped-Polo-Shirt-125d6ae1-12f0-4a9a-9297-1bf2ed24ee3b",
+        "imageAlt": "Men's casual striped polo shirt for comfort and style",
+        "rating": "4.6",
+        "keyFeatures": [
+            "Soft and breathable fabric for comfort",
+            "Classic striped pattern for a casual look",
+            "Ribbed collar and button placket"
+        ],
+        "productSummary": "Stay comfortable and stylish with this Men's Casual Striped Polo Shirt from CasualWear. Crafted from soft and breathable fabric, this polo shirt offers both fashion and comfort. It features a classic striped pattern, a ribbed collar, and a button placket for a casual look. Whether you're heading to a casual gathering or running errands, this polo shirt is a versatile choice that combines comfort and style effortlessly."
     },
     {
-        "id": "6a168871-0a0f-41c8-aa56-98e2995621cf",
-        "productName": "Graphic T-Shirt",
-        "productDescription": "Add some fun and style to your casual look with this graphic t-shirt from Street Style Co. The t-shirt features a trendy graphic print that adds a pop of personality to your outfit. It's made from soft and breathable cotton, ensuring comfort all day long. Whether you're hanging out with friends or exploring the city, this t-shirt is a must-have for your casual wardrobe.",
-        "brandName": "Street Style Co",
-        "price": "$29.99",
+        "id": "0e380a7c-26c6-4e7e-8a0f-49ac5a2b72ff",
+        "productName": "Women's Casual Slip-On Sneakers",
+        "productDescription": "Step into comfort and style with these women's casual slip-on sneakers. Crafted for ease, these sneakers offer both fashion and convenience. They feature a slip-on design, a cushioned insole, and a textured outsole for traction. Whether you're going for a quick walk or relaxing at home, these slip-on sneakers are a versatile choice.\n\nExperience convenience and style with these slip-on sneakers.\n\nKey Features:\n- Slip-on design for easy wear\n- Cushioned insole for comfort\n- Textured outsole for traction",
+        "brandName": "CasualStep",
+        "price": "$ 34.99",
         "category": "casual",
-        "imageSrc": "graphic_t_shirt.jpg",
-        "slug": "Graphic-T-Shirt-6a168871-0a0f-41c8-aa56-98e2995621cf",
-        "imageAlt": "Graphic t-shirt with trendy print",
-        "rating": "3.5"
+        "imageSrc": "womens_slip_on_sneakers.jpg",
+        "slug": "Womens-Casual-Slip-On-Sneakers-0e380a7c-26c6-4e7e-8a0f-49ac5a2b72ff",
+        "imageAlt": "Women's casual slip-on sneakers for convenience and style",
+        "rating": "4.5",
+        "keyFeatures": [
+            "Slip-on design for easy wear",
+            "Cushioned insole for comfort",
+            "Textured outsole for traction"
+        ],
+        "productSummary": "Step into comfort and style with these Women's Casual Slip-On Sneakers from CasualStep. Crafted for ease, these sneakers offer both fashion and convenience. They feature a slip-on design for easy wear, a cushioned insole for comfort, and a textured outsole for traction. Whether you're going for a quick walk or relaxing at home, these slip-on sneakers are a versatile choice that combines convenience and style effortlessly."
     },
     {
-        "id": "48cc22a2-26b2-43f5-b56d-03c5abf430d3",
-        "productName": "Canvas Sneakers",
-        "productDescription": "Step into comfort and style with these canvas sneakers from Urban Kicks. These sneakers feature a classic design with a durable canvas upper and a rubber sole for traction. Whether you're going for a casual walk or running errands, these sneakers will keep your feet comfortable and your style on point.",
-        "brandName": "Urban Kicks",
-        "price": "$49.99",
+        "id": "abf6c58f-5cfc-47a3-a4e0-46cf719e27d3",
+        "productName": "Men's Casual V-Neck Sweater",
+        "productDescription": "Stay warm and stylish with this men's casual V-neck sweater. Crafted from soft and cozy fabric, this sweater offers both fashion and warmth. It features a classic V-neck design, ribbed cuffs and hem, and a relaxed fit. Whether you're layering it over a shirt or wearing it on its own, this V-neck sweater is a versatile choice.\n\nExperience warmth and style with this V-neck sweater.\n\nKey Features:\n- Soft and cozy fabric for warmth\n- Classic V-neck design for a stylish look\n- Ribbed cuffs and hem\n- Relaxed fit for comfort",
+        "brandName": "CasualKnit",
+        "price": "$ 49.99",
         "category": "casual",
-        "imageSrc": "canvas_sneakers.jpg",
-        "slug": "Canvas-Sneakers-48cc22a2-26b2-43f5-b56d-03c5abf430d3",
-        "imageAlt": "Canvas sneakers in classic design",
-        "rating": "3.3"
+        "imageSrc": "mens_vneck_sweater.jpg",
+        "slug": "Mens-Casual-V-Neck-Sweater-abf6c58f-5cfc-47a3-a4e0-46cf719e27d3",
+        "imageAlt": "Men's casual V-neck sweater for warmth and style",
+        "rating": "4.7",
+        "keyFeatures": [
+            "Soft and cozy fabric for warmth",
+            "Classic V-neck design for a stylish look",
+            "Ribbed cuffs and hem",
+            "Relaxed fit for comfort"
+        ],
+        "productSummary": "Stay warm and stylish with this Men's Casual V-Neck Sweater from CasualKnit. Crafted from soft and cozy fabric, this sweater offers both fashion and warmth. It features a classic V-neck design, ribbed cuffs and hem, and a relaxed fit for comfort. Whether you're layering it over a shirt or wearing it on its own, this V-neck sweater is a versatile choice that combines warmth and style effortlessly."
     },
     {
-        "id": "dc01eee5-fbc0-4ed6-9c0a-92803b90be3c",
-        "productName": "Hooded Sweatshirt",
-        "productDescription": "Stay cozy and comfortable with this hooded sweatshirt from Cozy Comfort. The sweatshirt features a warm and soft fleece lining, making it perfect for chilly days. The hood and front kangaroo pocket add extra functionality and style. Whether you're lounging at home or heading out for a casual outing, this sweatshirt will keep you warm and relaxed.",
-        "brandName": "Cozy Comfort",
-        "price": "$39.99",
+        "id": "c85b3c87-79df-4a7a-aa3e-cd40fc53f7cd",
+        "productName": "Women's Casual Drawstring Shorts",
+        "productDescription": "Enjoy comfort and style with these women's casual drawstring shorts. Made from soft and breathable fabric, these shorts offer both fashion and ease of movement. They feature a drawstring waist, side pockets, and a relaxed fit. Whether you're lounging at home or heading to the beach, these drawstring shorts are a versatile choice.\n\nExperience comfort and style with these drawstring shorts.\n\nKey Features:\n- Soft and breathable fabric for comfort\n- Drawstring waist for an adjustable fit\n- Side pockets for convenience\n- Relaxed fit for ease of movement",
+        "brandName": "CasualEase",
+        "price": "$ 24.99",
         "category": "casual",
-        "imageSrc": "hooded_sweatshirt.jpg",
-        "slug": "Hooded-Sweatshirt-dc01eee5-fbc0-4ed6-9c0a-92803b90be3c",
-        "imageAlt": "Hooded sweatshirt for casual comfort",
-        "rating": "1.4"
+        "imageSrc": "womens_drawstring_shorts.jpg",
+        "slug": "Womens-Casual-Drawstring-Shorts-c85b3c87-79df-4a7a-aa3e-cd40fc53f7cd",
+        "imageAlt": "Women's casual drawstring shorts for comfort and style",
+        "rating": "4.6",
+        "keyFeatures": [
+            "Soft and breathable fabric for comfort",
+            "Drawstring waist for an adjustable fit",
+            "Side pockets for convenience",
+            "Relaxed fit for ease of movement"
+        ],
+        "productSummary": "Enjoy comfort and style with these Women's Casual Drawstring Shorts from CasualEase. Made from soft and breathable fabric, these shorts offer both fashion and ease of movement. They feature a drawstring waist for an adjustable fit, side pockets for convenience, and a relaxed fit for ease of movement. Whether you're lounging at home or heading to the beach, these drawstring shorts are a versatile choice that combines comfort and style effortlessly."
     },
     {
-        "id": "10a567a5-1502-4345-9e4c-249aecf6e04e",
-        "productName": "Striped Polo Shirt",
-        "productDescription": "Add a touch of sophistication to your casual wardrobe with this striped polo shirt from Classic Casuals. The shirt features a classic polo collar and a timeless striped pattern. It's made from breathable cotton, ensuring comfort on warm days. Whether you're going for a round of golf or a casual brunch, this polo shirt will keep you looking stylish and relaxed.",
-        "brandName": "Classic Casuals",
-        "price": "$34.99",
+        "id": "7e4817e3-82a7-4cc0-836b-39a93c51e4ce",
+        "productName": "Men's Casual Cargo Shorts",
+        "productDescription": "Get ready for outdoor adventures with these men's casual cargo shorts. Made from durable and rugged fabric, these shorts offer both style and functionality. They feature multiple cargo pockets, a zip fly with a button closure, and an adjustable drawstring waist. Whether you're hiking or exploring, these cargo shorts are a versatile choice.\n\nExperience style and functionality with these cargo shorts.\n\nKey Features:\n- Durable and rugged fabric for outdoor activities\n- Multiple cargo pockets for storage\n- Zip fly with button closure for convenience\n- Adjustable drawstring waist for a customized fit",
+        "brandName": "OutdoorReady",
+        "price": "$ 39.99",
         "category": "casual",
-        "imageSrc": "striped_polo_shirt.jpg",
-        "slug": "Striped-Polo-Shirt-10a567a5-1502-4345-9e4c-249aecf6e04e",
-        "imageAlt": "Striped polo shirt for casual style",
-        "rating": "1.9"
+        "imageSrc": "mens_cargo_shorts.jpg",
+        "slug": "Mens-Casual-Cargo-Shorts-7e4817e3-82a7-4cc0-836b-39a93c51e4ce",
+        "imageAlt": "Men's casual cargo shorts for outdoor adventures",
+        "rating": "4.8",
+        "keyFeatures": [
+            "Durable and rugged fabric for outdoor activities",
+            "Multiple cargo pockets for storage",
+            "Zip fly with button closure for convenience",
+            "Adjustable drawstring waist for a customized fit"
+        ],
+        "productSummary": "Get ready for outdoor adventures with these Men's Casual Cargo Shorts from OutdoorReady. Made from durable and rugged fabric, these shorts offer both style and functionality. They feature multiple cargo pockets for storage, a zip fly with a button closure for convenience, and an adjustable drawstring waist for a customized fit. Whether you're hiking or exploring, these cargo shorts are a versatile choice that combines style and functionality effortlessly."
     },
     {
-        "id": "cc486078-0471-4f90-b6cf-2b3a5c4e144f",
-        "productName": "Canvas Backpack",
-        "productDescription": "Carry your essentials in style with this canvas backpack from Adventure Gear. The backpack features a rugged yet stylish design, making it perfect for outdoor adventures or everyday use. It has multiple pockets and compartments to keep your belongings organized, and the padded shoulder straps provide comfort during long journeys.",
-        "brandName": "Adventure Gear",
-        "price": "$69.99",
+        "id": "2a96dd74-ec04-4b38-9960-e0bb3b3d46cc",
+        "productName": "Women's Casual Boho Maxi Dress",
+        "productDescription": "Elevate your casual style with this women's casual boho maxi dress. Made from lightweight and flowy fabric, this maxi dress offers both fashion and comfort. It features a bohemian-inspired design, a V-neckline, and adjustable spaghetti straps. Whether you're going to a beach party or enjoying a summer day, this boho maxi dress is a versatile choice.\n\nExperience boho chic with this maxi dress.\n\nKey Features:\n- Lightweight and flowy fabric for comfort\n- Bohemian-inspired design for a trendy look\n- V-neckline and adjustable spaghetti straps",
+        "brandName": "BohoChic",
+        "price": "$ 44.99",
         "category": "casual",
-        "imageSrc": "canvas_backpack.jpg",
-        "slug": "Canvas-Backpack-cc486078-0471-4f90-b6cf-2b3a5c4e144f",
-        "imageAlt": "Canvas backpack for outdoor adventures",
-        "rating": "4.5"
-    },
-    {
-        "id": "346432cf-8b82-4bb8-8b5a-e5e6e89885b9",
-        "productName": "Casual Sneakers",
-        "productDescription": "Upgrade your casual footwear collection with these comfortable and versatile casual sneakers from Everyday Sneaks. These sneakers feature a modern and sleek design with a cushioned insole for all-day comfort. Whether you're exploring the city or heading to a weekend getaway, these sneakers will keep your feet happy and your style on point.",
-        "brandName": "Everyday Sneaks",
-        "price": "$54.99",
-        "category": "casual",
-        "imageSrc": "casual_sneakers.jpg",
-        "slug": "Casual-Sneakers-346432cf-8b82-4bb8-8b5a-e5e6e89885b9",
-        "imageAlt": "Casual sneakers for versatile style",
-        "rating": "2.9"
-    },
-    {
-        "id": "7c1232f3-8221-476d-8921-881c27560c06",
-        "productName": "Printed Shorts",
-        "productDescription": "Stay cool and stylish on hot days with these printed shorts from Summer Vibes. These shorts feature a trendy print that adds a pop of personality to your summer wardrobe. They are made from lightweight and breathable fabric, ensuring comfort in the heat. Whether you're hitting the beach or enjoying a barbecue, these shorts are a summer essential.",
-        "brandName": "Summer Vibes",
-        "price": "$44.99",
-        "category": "casual",
-        "imageSrc": "printed_shorts.jpg",
-        "slug": "Printed-Shorts-7c1232f3-8221-476d-8921-881c27560c06",
-        "imageAlt": "Printed shorts for summer style",
-        "rating": "1.5"
-    },
-    {
-        "id": "b445e639-9437-44d7-a1e0-c218bb8c96e9",
-        "productName": "Casual Sunglasses",
-        "productDescription": "Protect your eyes in style with these casual sunglasses from Sun Shades. These sunglasses feature a classic design with UV protection lenses. Whether you're at the beach, driving, or just enjoying a sunny day, these sunglasses will keep your eyes shielded from the sun's harmful rays while adding a touch of coolness to your look.",
-        "brandName": "Sun Shades",
-        "price": "$19.99",
-        "category": "casual",
-        "imageSrc": "casual_sunglasses.jpg",
-        "slug": "Casual-Sunglasses-b445e639-9437-44d7-a1e0-c218bb8c96e9",
-        "imageAlt": "Casual sunglasses with UV protection",
-        "rating": "2.6"
-    },
-    {
-        "id": "d2b3e8d8-e26a-46ef-bb4e-1c6b1277ee9b",
-        "productName": "Straw Hat",
-        "productDescription": "Stay shaded and stylish with this straw hat from Beach Breeze. The hat features a classic straw construction with a wide brim that provides ample sun protection. Whether you're lounging by the pool, strolling on the boardwalk, or heading to a summer picnic, this straw hat will keep you cool and fashionable.",
-        "brandName": "Beach Breeze",
-        "price": "$24.99",
-        "category": "casual",
-        "imageSrc": "straw_hat.jpg",
-        "slug": "Straw-Hat-d2b3e8d8-e26a-46ef-bb4e-1c6b1277ee9b",
-        "imageAlt": "Straw hat for sun protection and style",
-        "rating": "4.5"
+        "imageSrc": "womens_boho_maxi_dress.jpg",
+        "slug": "Womens-Casual-Boho-Maxi-Dress-2a96dd74-ec04-4b38-9960-e0bb3b3d46cc",
+        "imageAlt": "Women's casual boho maxi dress for a chic look",
+        "rating": "4.7",
+        "keyFeatures": [
+            "Lightweight and flowy fabric for comfort",
+            "Bohemian-inspired design for a trendy look",
+            "V-neckline and adjustable spaghetti straps"
+        ],
+        "productSummary": "Elevate your casual style with this Women's Casual Boho Maxi Dress from BohoChic. Made from lightweight and flowy fabric, this maxi dress offers both fashion and comfort. It features a bohemian-inspired design with a V-neckline and adjustable spaghetti straps for a trendy look. Whether you're going to a beach party or enjoying a summer day, this boho maxi dress is a versatile choice that brings boho chic to your wardrobe."
     }
 ]
 
